@@ -32,7 +32,7 @@ fi
 file_path="$(realpath $1)"
 link_name="$HOME/.trash/$(date +%s)"
 
-ln "$file_path" $link_name
+ln "$file_path" "$link_name"
 
 rm $file_path
 
