@@ -1,0 +1,1832 @@
+03:17:49,993 INFO kernel:Command line: BOOT_IMAGE=vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS-8-4-2105-x86_64-dvd quiet
+03:17:49,993 INFO kernel:x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+03:17:49,993 INFO kernel:x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+03:17:49,993 INFO kernel:x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+03:17:49,993 INFO kernel:x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+03:17:49,993 INFO kernel:x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+03:17:49,993 INFO kernel:BIOS-provided physical RAM map:
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+03:17:49,993 INFO kernel:BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+03:17:49,993 INFO kernel:NX (Execute Disable) protection: active
+03:17:49,993 INFO kernel:SMBIOS 2.5 present.
+03:17:49,994 INFO kernel:DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+03:17:49,994 INFO kernel:Hypervisor detected: KVM
+03:17:49,994 INFO kernel:kvm-clock: Using msrs 4b564d01 and 4b564d00
+03:17:49,994 INFO kernel:kvm-clock: cpu 0, msr 64001001, primary cpu clock
+03:17:49,994 INFO kernel:kvm-clock: using sched offset of 11619784231 cycles
+03:17:49,994 INFO kernel:clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+03:17:49,994 INFO kernel:tsc: Detected 2712.000 MHz processor
+03:17:49,994 INFO kernel:last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+03:17:49,994 INFO kernel:Disabled
+03:17:49,994 INFO kernel:x86/PAT: MTRRs disabled, skipping PAT initialization too.
+03:17:49,994 INFO kernel:CPU MTRRs all blank - virtualized system.
+03:17:49,994 INFO kernel:x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+03:17:49,994 INFO kernel:found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+03:17:49,994 INFO kernel:RAMDISK: [mem 0x7b80d000-0x7ffeffff]
+03:17:49,994 INFO kernel:ACPI: Early table checksum verification disabled
+03:17:49,994 INFO kernel:ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+03:17:49,994 INFO kernel:ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+03:17:49,995 INFO kernel:ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+03:17:49,995 INFO kernel:ACPI: DSDT 0x000000007FFF0470 002325 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+03:17:49,995 INFO kernel:ACPI: FACS 0x000000007FFF0200 000040
+03:17:49,995 INFO kernel:ACPI: FACS 0x000000007FFF0200 000040
+03:17:49,995 INFO kernel:ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+03:17:49,995 INFO kernel:ACPI: SSDT 0x000000007FFF02A0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+03:17:49,995 INFO kernel:No NUMA configuration found
+03:17:49,995 INFO kernel:Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+03:17:49,995 INFO kernel:NODE_DATA(0) allocated [mem 0x7b7e3000-0x7b80cfff]
+03:17:49,995 INFO kernel:Zone ranges:
+03:17:49,995 INFO kernel:  DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+03:17:49,995 INFO kernel:  DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+03:17:49,995 INFO kernel:  Normal   empty
+03:17:49,995 INFO kernel:  Device   empty
+03:17:49,995 INFO kernel:Movable zone start for each node
+03:17:49,995 INFO kernel:Early memory node ranges
+03:17:49,995 INFO kernel:  node   0: [mem 0x0000000000001000-0x000000000009efff]
+03:17:49,995 INFO kernel:  node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+03:17:49,995 INFO kernel:Zeroed struct page in unavailable ranges: 114 pages
+03:17:49,995 INFO kernel:Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+03:17:49,995 INFO kernel:ACPI: PM-Timer IO Port: 0x4008
+03:17:49,995 INFO kernel:IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+03:17:49,995 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+03:17:49,995 INFO kernel:ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+03:17:49,995 INFO kernel:Using ACPI (MADT) for SMP configuration information
+03:17:49,995 INFO kernel:smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+03:17:49,997 INFO kernel:PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+03:17:49,997 INFO kernel:PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+03:17:49,997 INFO kernel:PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+03:17:49,997 INFO kernel:PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+03:17:49,997 INFO kernel:[mem 0x80000000-0xfebfffff] available for PCI devices
+03:17:49,997 INFO kernel:Booting paravirtualized kernel on KVM
+03:17:49,997 INFO kernel:clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+03:17:49,997 INFO kernel:setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+03:17:49,997 INFO kernel:percpu: Embedded 54 pages/cpu s184320 r8192 d28672 u1048576
+03:17:49,997 INFO kernel:kvm-guest: PV spinlocks enabled
+03:17:49,997 INFO kernel:PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+03:17:49,997 INFO kernel:Built 1 zonelists, mobility grouping on.  Total pages: 515961
+03:17:49,997 INFO kernel:Policy zone: DMA32
+03:17:49,997 INFO kernel:Memory: 261668K/2096696K available (12293K kernel code, 2225K rwdata, 7708K rodata, 2480K init, 14048K bss, 152244K reserved, 0K cma-reserved)
+03:17:49,997 INFO kernel:SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+03:17:49,997 INFO kernel:Kernel/User page tables isolation: enabled
+03:17:49,997 INFO kernel:ftrace: allocating 38570 entries in 151 pages
+03:17:49,997 INFO kernel:ftrace: allocated 151 pages with 5 groups
+03:17:49,997 INFO kernel:rcu: Hierarchical RCU implementation.
+03:17:49,997 INFO kernel:rcu: #011RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+03:17:49,997 INFO kernel:rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+03:17:49,997 INFO kernel:rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+03:17:49,997 INFO kernel:NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+03:17:49,997 INFO kernel:Console: colour VGA+ 80x25
+03:17:49,997 INFO kernel:printk: console [tty0] enabled
+03:17:49,997 INFO kernel:ACPI: Core revision 20200925
+03:17:49,997 INFO kernel:APIC: Switch to symmetric I/O mode setup
+03:17:49,997 INFO kernel:x2apic enabled
+03:17:49,997 INFO kernel:Switched APIC routing to physical x2apic.
+03:17:49,997 INFO kernel:..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+03:17:49,997 INFO kernel:clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2717868ea45, max_idle_ns: 440795316085 ns
+03:17:49,997 INFO kernel:Calibrating delay loop (skipped) preset value.. 5424.00 BogoMIPS (lpj=2712000)
+03:17:49,997 INFO kernel:pid_max: default: 32768 minimum: 301
+03:17:49,997 INFO kernel:Security Framework initialized
+03:17:49,997 INFO kernel:Yama: becoming mindful.
+03:17:49,997 INFO kernel:SELinux:  Initializing.
+03:17:49,997 INFO kernel:Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes)
+03:17:49,997 INFO kernel:Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes)
+03:17:49,999 INFO kernel:Mount-cache hash table entries: 4096 (order: 3, 32768 bytes)
+03:17:49,999 INFO kernel:Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes)
+03:17:49,999 INFO kernel:Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+03:17:49,999 INFO kernel:Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+03:17:49,999 INFO kernel:FEATURE SPEC_CTRL Not Present
+03:17:49,999 INFO kernel:FEATURE IBPB_SUPPORT Not Present
+03:17:49,999 INFO kernel:Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+03:17:49,999 INFO kernel:Spectre V2 : Mitigation: Full generic retpoline
+03:17:49,999 INFO kernel:Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+03:17:50,002 INFO kernel:Speculative Store Bypass: Vulnerable
+03:17:50,002 INFO kernel:SRBDS: Unknown: Dependent on hypervisor status
+03:17:50,002 INFO kernel:MDS: Mitigation: Clear CPU buffers
+03:17:50,002 INFO kernel:Freeing SMP alternatives memory: 32K
+03:17:50,002 INFO kernel:APIC delta adjusted to PM-Timer: 6338196 (8938962)
+03:17:50,002 INFO kernel:smpboot: CPU0: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz (family: 0x6, model: 0x8e, stepping: 0x9)
+03:17:50,002 INFO kernel:Performance Events: unsupported p6 CPU model 142 no PMU driver, software events only.
+03:17:50,002 INFO kernel:rcu: Hierarchical SRCU implementation.
+03:17:50,002 INFO kernel:NMI watchdog: Perf NMI watchdog permanently disabled
+03:17:50,002 INFO kernel:smp: Bringing up secondary CPUs ...
+03:17:50,002 INFO kernel:x86: Booting SMP configuration:
+03:17:50,002 INFO kernel:.... node  #0, CPUs:      #1
+03:17:50,002 INFO kernel:kvm-clock: cpu 1, msr 64001041, secondary cpu clock
+03:17:50,002 INFO kernel:smp: Brought up 1 node, 2 CPUs
+03:17:50,002 INFO kernel:smpboot: Max logical packages: 1
+03:17:50,002 INFO kernel:smpboot: Total of 2 processors activated (10848.00 BogoMIPS)
+03:17:50,002 INFO kernel:node 0 deferred pages initialised in 302ms
+03:17:50,002 INFO kernel:devtmpfs: initialized
+03:17:50,002 INFO kernel:x86/mm: Memory block size: 128MB
+03:17:50,002 INFO kernel:clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+03:17:50,002 INFO kernel:futex hash table entries: 512 (order: 3, 32768 bytes)
+03:17:50,002 INFO kernel:pinctrl core: initialized pinctrl subsystem
+03:17:50,002 INFO kernel:NET: Registered protocol family 16
+03:17:50,002 INFO kernel:DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+03:17:50,002 INFO kernel:DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+03:17:50,002 INFO kernel:DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+03:17:50,002 INFO kernel:audit: initializing netlink subsys (disabled)
+03:17:50,002 INFO kernel:cpuidle: using governor menu
+03:17:50,002 INFO kernel:ACPI: bus type PCI registered
+03:17:50,002 INFO kernel:acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+03:17:50,002 INFO kernel:PCI: Using configuration type 1 for base access
+03:17:50,002 INFO kernel:HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+03:17:50,002 INFO kernel:cryptd: max_cpu_qlen set to 1000
+03:17:50,002 INFO kernel:ACPI: Added _OSI(Module Device)
+03:17:50,002 INFO kernel:ACPI: Added _OSI(Processor Device)
+03:17:50,002 INFO kernel:ACPI: Added _OSI(3.0 _SCP Extensions)
+03:17:50,002 INFO kernel:ACPI: Added _OSI(Processor Aggregator Device)
+03:17:50,002 INFO kernel:ACPI: Added _OSI(Linux-Dell-Video)
+03:17:50,002 INFO kernel:ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+03:17:50,020 INFO kernel:ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+03:17:50,020 INFO kernel:ACPI: 2 ACPI AML tables successfully acquired and loaded
+03:17:50,020 INFO kernel:ACPI: Interpreter enabled
+03:17:50,020 INFO kernel:ACPI: (supports S0 S5)
+03:17:50,020 INFO kernel:ACPI: Using IOAPIC for interrupt routing
+03:17:50,020 INFO kernel:PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+03:17:50,020 INFO kernel:ACPI: Enabled 2 GPEs in block 00 to 07
+03:17:50,020 INFO kernel:ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+03:17:50,020 INFO kernel:acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+03:17:50,020 INFO kernel:acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+03:17:50,021 INFO kernel:PCI host bridge to bus 0000:00
+03:17:50,021 INFO kernel:pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+03:17:50,021 INFO kernel:pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+03:17:50,021 INFO kernel:pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+03:17:50,021 INFO kernel:pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+03:17:50,022 INFO kernel:pci_bus 0000:00: root bus resource [bus 00-ff]
+03:17:50,022 INFO kernel:pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+03:17:50,022 INFO kernel:pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+03:17:50,022 INFO kernel:pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+03:17:50,022 INFO kernel:pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+03:17:50,023 INFO kernel:pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+03:17:50,023 INFO kernel:pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+03:17:50,023 INFO kernel:pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+03:17:50,023 INFO kernel:pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+03:17:50,029 INFO kernel:pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+03:17:50,030 INFO kernel:pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+03:17:50,030 INFO kernel:pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe7ffffff pref]
+03:17:50,030 INFO kernel:pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+03:17:50,030 INFO kernel:pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+03:17:50,031 INFO kernel:pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+03:17:50,031 INFO kernel:pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+03:17:50,031 INFO kernel:pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+03:17:50,031 INFO kernel:pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+03:17:50,031 INFO kernel:pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+03:17:50,033 INFO kernel:pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+03:17:50,033 INFO kernel:pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+03:17:50,033 INFO kernel:pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+03:17:50,037 INFO kernel:pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+03:17:50,037 INFO kernel:pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+03:17:50,037 INFO kernel:pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+03:17:50,038 INFO kernel:pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+03:17:50,038 INFO kernel:pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+03:17:50,038 INFO kernel:pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+03:17:50,038 INFO kernel:pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+03:17:50,039 INFO kernel:pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+03:17:50,039 INFO kernel:pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+03:17:50,039 INFO kernel:pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+03:17:50,039 INFO kernel:pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+03:17:50,039 INFO kernel:pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+03:17:50,040 INFO kernel:pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+03:17:50,040 INFO kernel:pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+03:17:50,040 INFO kernel:pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+03:17:50,040 INFO kernel:ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+03:17:50,040 INFO kernel:ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+03:17:50,040 INFO kernel:ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+03:17:50,040 INFO kernel:ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+03:17:50,040 INFO kernel:iommu: Default domain type: Passthrough 
+03:17:50,040 INFO kernel:pci 0000:00:02.0: vgaarb: setting as boot VGA device
+03:17:50,045 INFO kernel:pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+03:17:50,045 INFO kernel:pci 0000:00:02.0: vgaarb: bridge control possible
+03:17:50,045 INFO kernel:vgaarb: loaded
+03:17:50,045 INFO kernel:ACPI: bus type USB registered
+03:17:50,045 INFO kernel:usbcore: registered new interface driver usbfs
+03:17:50,045 INFO kernel:usbcore: registered new interface driver hub
+03:17:50,045 INFO kernel:usbcore: registered new device driver usb
+03:17:50,045 INFO kernel:pps_core: LinuxPPS API ver. 1 registered
+03:17:50,045 INFO kernel:pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+03:17:50,045 INFO kernel:PTP clock support registered
+03:17:50,045 INFO kernel:EDAC MC: Ver: 3.0.0
+03:17:50,045 INFO kernel:PCI: Using ACPI for IRQ routing
+03:17:50,045 INFO kernel:NetLabel: Initializing
+03:17:50,045 INFO kernel:NetLabel:  domain hash size = 128
+03:17:50,045 INFO kernel:NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+03:17:50,045 INFO kernel:NetLabel:  unlabeled traffic allowed by default
+03:17:50,045 INFO kernel:clocksource: Switched to clocksource kvm-clock
+03:17:50,046 INFO kernel:VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+03:17:50,046 INFO kernel:pnp: PnP ACPI init
+03:17:50,046 INFO kernel:pnp: PnP ACPI: found 2 devices
+03:17:50,046 INFO kernel:clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+03:17:50,046 INFO kernel:pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+03:17:50,046 INFO kernel:pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+03:17:50,046 INFO kernel:pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+03:17:50,047 INFO kernel:pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+03:17:50,047 INFO kernel:NET: Registered protocol family 2
+03:17:50,047 INFO kernel:tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes)
+03:17:50,047 INFO kernel:TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+03:17:50,047 INFO kernel:TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+03:17:50,047 INFO kernel:TCP: Hash tables configured (established 16384 bind 16384)
+03:17:50,047 INFO kernel:MPTCP token hash table entries: 2048 (order: 3, 49152 bytes)
+03:17:50,047 INFO kernel:UDP hash table entries: 1024 (order: 3, 32768 bytes)
+03:17:50,047 INFO kernel:UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes)
+03:17:50,048 INFO kernel:NET: Registered protocol family 1
+03:17:50,049 INFO kernel:NET: Registered protocol family 44
+03:17:50,049 INFO kernel:pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+03:17:50,049 INFO kernel:pci 0000:00:01.0: Activating ISA DMA hang workarounds
+03:17:50,049 INFO kernel:pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+03:17:50,049 INFO kernel:PCI: CLS 0 bytes, default 64
+03:17:50,049 INFO kernel:Unpacking initramfs...
+03:17:50,049 INFO kernel:Freeing initrd memory: 73612K
+03:17:50,049 INFO kernel:clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2717868ea45, max_idle_ns: 440795316085 ns
+03:17:50,049 INFO kernel:clocksource: Switched to clocksource tsc
+03:17:50,049 INFO kernel:platform rtc_cmos: registered platform RTC device (no PNP device found)
+03:17:50,051 INFO kernel:workingset: timestamp_bits=36 max_order=19 bucket_order=0
+03:17:50,051 INFO kernel:zbud: loaded
+03:17:50,051 INFO kernel:pstore: using deflate compression
+03:17:50,051 INFO kernel:NET: Registered protocol family 38
+03:17:50,051 INFO kernel:Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+03:17:50,051 INFO kernel:io scheduler mq-deadline registered
+03:17:50,051 INFO kernel:io scheduler kyber registered
+03:17:50,051 INFO kernel:io scheduler bfq registered
+03:17:50,051 INFO kernel:atomic64_test: passed for x86-64 platform with CX8 and with SSE
+03:17:50,051 INFO kernel:shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+03:17:50,051 INFO kernel:ACPI: AC Adapter [AC] (off-line)
+03:17:50,051 INFO kernel:input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+03:17:50,051 INFO kernel:ACPI: Power Button [PWRF]
+03:17:50,051 INFO kernel:input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+03:17:50,051 INFO kernel:ACPI: Sleep Button [SLPF]
+03:17:50,051 INFO kernel:Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+03:17:50,051 INFO kernel:Non-volatile memory driver v1.3
+03:17:50,051 INFO kernel:battery: ACPI: Battery Slot [BAT0] (battery present)
+03:17:50,051 INFO kernel:rdac: device handler registered
+03:17:50,051 INFO kernel:hp_sw: device handler registered
+03:17:50,051 INFO kernel:emc: device handler registered
+03:17:50,051 INFO kernel:alua: device handler registered
+03:17:50,051 INFO kernel:libphy: Fixed MDIO Bus: probed
+03:17:50,051 INFO kernel:ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+03:17:50,051 INFO kernel:ehci-pci: EHCI PCI platform driver
+03:17:50,051 INFO kernel:ehci-pci 0000:00:0b.0: EHCI Host Controller
+03:17:50,054 INFO kernel:ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+03:17:50,054 INFO kernel:ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+03:17:50,054 INFO kernel:ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+03:17:50,054 INFO kernel:usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 4.18
+03:17:50,055 INFO kernel:usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+03:17:50,148 INFO kernel:usb usb1: Product: EHCI Host Controller
+03:17:50,148 INFO kernel:usb usb1: Manufacturer: Linux 4.18.0-305.3.1.el8.x86_64 ehci_hcd
+03:17:50,148 INFO kernel:usb usb1: SerialNumber: 0000:00:0b.0
+03:17:50,149 INFO kernel:hub 1-0:1.0: USB hub found
+03:17:50,149 INFO kernel:hub 1-0:1.0: 12 ports detected
+03:17:50,149 INFO kernel:ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+03:17:50,149 INFO kernel:ohci-pci: OHCI PCI platform driver
+03:17:50,149 INFO kernel:ohci-pci 0000:00:06.0: OHCI PCI host controller
+03:17:50,149 INFO kernel:ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+03:17:50,159 INFO kernel:ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+03:17:50,160 INFO kernel:usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.18
+03:17:50,160 INFO kernel:usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+03:17:50,160 INFO kernel:usb usb2: Product: OHCI PCI host controller
+03:17:50,160 INFO kernel:usb usb2: Manufacturer: Linux 4.18.0-305.3.1.el8.x86_64 ohci_hcd
+03:17:50,160 INFO kernel:usb usb2: SerialNumber: 0000:00:06.0
+03:17:50,161 INFO kernel:hub 2-0:1.0: USB hub found
+03:17:50,161 INFO kernel:hub 2-0:1.0: 12 ports detected
+03:17:50,161 INFO kernel:uhci_hcd: USB Universal Host Controller Interface driver
+03:17:50,161 INFO kernel:usbcore: registered new interface driver usbserial_generic
+03:17:50,161 INFO kernel:usbserial: USB Serial support registered for generic
+03:17:50,161 INFO kernel:i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+03:17:50,161 INFO kernel:serio: i8042 KBD port at 0x60,0x64 irq 1
+03:17:50,161 INFO kernel:serio: i8042 AUX port at 0x60,0x64 irq 12
+03:17:50,161 INFO kernel:mousedev: PS/2 mouse device common for all mice
+03:17:50,161 INFO kernel:input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+03:17:50,163 INFO kernel:rtc_cmos rtc_cmos: registered as rtc0
+03:17:50,163 INFO kernel:rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+03:17:50,163 INFO kernel:intel_pstate: CPU model not supported
+03:17:50,163 INFO kernel:hid: raw HID events driver (C) Jiri Kosina
+03:17:50,163 INFO kernel:usbcore: registered new interface driver usbhid
+03:17:50,163 INFO kernel:usbhid: USB HID core driver
+03:17:50,163 INFO kernel:drop_monitor: Initializing network drop monitor service
+03:17:50,163 INFO kernel:Initializing XFRM netlink socket
+03:17:50,163 INFO kernel:NET: Registered protocol family 10
+03:17:50,163 INFO kernel:Segment Routing with IPv6
+03:17:50,163 INFO kernel:NET: Registered protocol family 17
+03:17:50,163 INFO kernel:mpls_gso: MPLS GSO support
+03:17:50,163 INFO kernel:core: Using 0 MCE banks
+03:17:50,163 INFO kernel:AVX2 version of gcm_enc/dec engaged.
+03:17:50,163 INFO kernel:AES CTR mode by8 optimization enabled
+03:17:50,163 INFO kernel:sched_clock: Marking stable (15041800678, 0)->(17311723053, -2269922375)
+03:17:50,163 INFO kernel:registered taskstats version 1
+03:17:50,163 INFO kernel:zswap: loaded using pool lzo/zbud
+03:17:50,163 INFO kernel:page_owner is disabled
+03:17:50,163 INFO kernel:ima: No TPM chip found, activating TPM-bypass!
+03:17:50,163 INFO kernel:ima: Allocated hash algorithm: sha256
+03:17:50,163 INFO kernel:ima: No architecture policies found
+03:17:50,163 INFO kernel:evm: Initialising EVM extended attributes:
+03:17:50,163 INFO kernel:evm: security.selinux
+03:17:50,163 INFO kernel:evm: security.ima
+03:17:50,163 INFO kernel:evm: security.capability
+03:17:50,163 INFO kernel:evm: HMAC attrs: 0x1
+03:17:50,167 INFO kernel:rtc_cmos rtc_cmos: setting system clock to 2021-06-22 03:17:49 UTC (1624331869)
+03:17:50,167 INFO kernel:Freeing unused decrypted memory: 2036K
+03:17:50,167 INFO kernel:Freeing unused kernel memory: 2480K
+03:17:50,167 INFO kernel:Write protecting the kernel read-only data: 22528k
+03:17:50,167 INFO kernel:Freeing unused kernel memory: 2012K
+03:17:50,167 INFO kernel:Freeing unused kernel memory: 484K
+03:17:50,167 INFO systemd:systemd 239 (239-45.el8) running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+03:17:50,167 INFO systemd:Detected virtualization oracle.
+03:17:50,167 INFO systemd:Detected architecture x86-64.
+03:17:50,167 INFO systemd:Running in initial RAM disk.
+03:17:50,167 INFO systemd:No hostname configured.
+03:17:50,167 INFO systemd:Set hostname to <localhost>.
+03:17:50,167 INFO systemd:Initializing machine ID from random generator.
+03:17:50,167 INFO kernel:input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+03:17:50,167 INFO systemd:Listening on Journal Socket.
+03:17:50,167 INFO systemd:Reached target Initrd Root Device.
+03:17:50,167 INFO systemd:Listening on Open-iSCSI iscsid Socket.
+03:17:50,167 INFO kernel:usb 2-1: new full-speed USB device number 2 using ohci-pci
+03:17:50,167 INFO kernel:Loading iSCSI transport class v2.0-870.
+03:17:50,168 INFO kernel:usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+03:17:50,168 INFO kernel:usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+03:17:50,168 INFO kernel:usb 2-1: Product: USB Tablet
+03:17:50,168 INFO kernel:usb 2-1: Manufacturer: VirtualBox
+03:17:50,168 INFO kernel:input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input5
+03:17:50,172 INFO kernel:hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+03:17:50,172 INFO systemd-journald:Journal started
+03:17:50,172 INFO systemd-journald:Runtime journal (/run/log/journal/a7808e6b3b8e4580a6b9578bf61df224) is 8.0M, max 98.8M, 90.8M free.
+03:17:50,174 INFO systemd-modules-load:Module 'msr' is builtin
+03:17:50,174 INFO rngd:Initializing available sources
+03:17:50,174 INFO rngd:Failed to init entropy source hwrng
+03:17:50,174 INFO rngd:Enabling RDSEED rng support
+03:17:50,174 INFO rngd:Initializing entropy source rdrand
+03:17:50,186 INFO dracut-cmdline:dracut-8 dracut-049-135.git20210121.el8
+03:17:50,232 INFO dracut-cmdline:Using kernel command line parameters: BOOT_IMAGE=vmlinuz initrd=initrd.img inst.stage2=hd:LABEL=CentOS-8-4-2105-x86_64-dvd quiet
+03:17:50,822 INFO kernel:BIOS EDD facility v0.16 2004-Jun-25, 1 devices found
+03:17:51,113 INFO dracut-cmdline:Loading CentOS Linux 8 x86_64 installer...
+03:17:52,412 INFO dracut-cmdline:rd.luks=0: removing cryptoluks activation
+03:17:52,636 INFO dracut-cmdline:rd.lvm=0: removing LVM activation
+03:17:53,030 INFO kernel:QLogic iSCSI HBA Driver
+03:17:53,053 INFO kernel:libcxgbi:libcxgbi_init_module: Chelsio iSCSI driver library libcxgbi v0.9.1-ko (Apr. 2015)
+03:17:53,359 INFO kernel:Chelsio T4-T6 iSCSI Driver cxgb4i v0.9.5-ko (Apr. 2015)
+03:17:53,468 INFO kernel:cnic: QLogic cnicDriver v2.5.22 (July 20, 2015)
+03:17:53,481 INFO kernel:QLogic NetXtreme II iSCSI Driver bnx2i v2.7.10.1 (Jul 16, 2014)
+03:17:53,534 INFO kernel:In beiscsi_module_init, tt=0000000016a0eb3a
+03:17:53,806 INFO systemd:Started dracut cmdline hook.
+03:17:53,807 INFO systemd:Starting dracut pre-udev hook...
+03:17:54,249 INFO kernel:squashfs: version 4.0 (2009/01/31) Phillip Lougher
+03:17:54,435 INFO dracut-pre-udev:modprobe: FATAL: Module floppy not found in directory /lib/modules/4.18.0-305.3.1.el8.x86_64
+03:17:54,474 INFO rngd:Initializing AES buffer
+03:17:54,475 INFO rngd:Enabling JITTER rng support
+03:17:54,475 INFO rngd:Initializing entropy source jitter
+03:17:54,614 INFO kernel:No iBFT detected.
+03:17:55,115 INFO kernel:raid6: sse2x1   gen()  5512 MB/s
+03:17:55,116 INFO kernel:raid6: sse2x1   xor()   390 MB/s
+03:17:55,127 INFO kernel:raid6: sse2x2   gen()  5875 MB/s
+03:17:55,149 INFO kernel:raid6: sse2x2   xor()  3583 MB/s
+03:17:55,166 INFO kernel:raid6: sse2x4   gen()  5655 MB/s
+03:17:55,183 INFO kernel:raid6: sse2x4   xor()  3481 MB/s
+03:17:55,205 INFO kernel:raid6: avx2x1   gen()  7469 MB/s
+03:17:55,226 INFO kernel:raid6: avx2x1   xor()  1022 MB/s
+03:17:55,243 INFO kernel:raid6: avx2x2   gen() 12632 MB/s
+03:17:55,259 INFO kernel:raid6: avx2x2   xor()  5161 MB/s
+03:17:55,276 INFO kernel:raid6: avx2x4   gen() 12205 MB/s
+03:17:55,302 INFO kernel:raid6: avx2x4   xor()  2980 MB/s
+03:17:55,302 INFO kernel:raid6: using algorithm avx2x2 gen() 12632 MB/s
+03:17:55,302 INFO kernel:raid6: .... xor() 5161 MB/s, rmw enabled
+03:17:55,302 INFO kernel:raid6: using avx2x2 recovery algorithm
+03:17:55,505 INFO kernel:async_tx: api initialized (async)
+03:17:55,513 INFO kernel:xor: automatically using best checksumming function   avx       
+03:17:56,064 INFO kernel:device-mapper: uevent: version 1.0.3
+03:17:56,065 INFO kernel:device-mapper: ioctl: 4.43.0-ioctl (2020-10-01) initialised: dm-devel@redhat.com
+03:17:57,165 INFO kernel:device-mapper: multipath round-robin: version 1.2.0 loaded
+03:17:57,603 INFO dracut-pre-udev:modprobe: ERROR: could not insert 'sha256_mb': No such device
+03:17:58,245 INFO kernel:RPC: Registered named UNIX socket transport module.
+03:17:58,246 INFO kernel:RPC: Registered udp transport module.
+03:17:58,246 INFO kernel:RPC: Registered tcp transport module.
+03:17:58,246 INFO kernel:RPC: Registered tcp NFSv4.1 backchannel transport module.
+03:17:59,046 INFO systemd:Started dracut pre-udev hook.
+03:17:59,048 INFO systemd:Starting udev Kernel Device Manager...
+03:17:59,104 INFO systemd:Started udev Kernel Device Manager.
+03:17:59,107 INFO systemd:Starting dracut pre-trigger hook...
+03:17:59,202 INFO lldpad:config file failed to load,
+03:17:59,202 INFO lldpad:create a new file.
+03:17:59,202 INFO lldpad:bound ctrl iface to /com/intel/lldpad
+03:17:59,204 INFO dracut-pre-trigger:815
+03:17:59,240 INFO dracut-pre-trigger:rd.md=0: removing MD RAID activation
+03:17:59,405 INFO systemd:Started dracut pre-trigger hook.
+03:17:59,407 INFO systemd:Starting udev Coldplug all Devices...
+03:17:59,551 INFO systemd:Mounting Kernel Configuration File System...
+03:17:59,604 INFO systemd:Mounted Kernel Configuration File System.
+03:17:59,716 INFO systemd:Started udev Coldplug all Devices.
+03:17:59,717 INFO systemd:Starting udev Wait for Complete Device Initialization...
+03:17:59,805 INFO systemd:Starting Show Plymouth Boot Screen...
+03:17:59,822 INFO kernel:e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+03:17:59,822 INFO kernel:e1000: Copyright (c) 1999-2006 Intel Corporation.
+03:17:59,860 INFO systemd:Received SIGRTMIN+20 from PID 905 (plymouthd).
+03:17:59,984 INFO kernel:ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+03:17:59,985 INFO kernel:input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input6
+03:18:00,065 INFO systemd:Started Show Plymouth Boot Screen.
+03:18:00,065 INFO systemd:Reached target Paths.
+03:18:00,065 INFO systemd:Reached target Local Encrypted Volumes.
+03:18:00,065 INFO systemd:Started Forward Password Requests to Plymouth Directory Watch.
+03:18:00,264 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+03:18:00,321 INFO kernel:scsi host0: ata_piix
+03:18:00,333 INFO kernel:ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+03:18:00,333 INFO kernel:ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+03:18:00,334 INFO kernel:ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+03:18:00,335 INFO kernel:scsi host1: ata_piix
+03:18:00,335 INFO kernel:ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+03:18:00,335 INFO kernel:ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+03:18:00,380 INFO kernel:scsi host2: ahci
+03:18:00,381 INFO kernel:ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+03:18:00,524 INFO kernel:ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+03:18:00,720 INFO kernel:ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+03:18:00,720 INFO kernel:ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+03:18:00,720 INFO kernel:ata3.00: 1073741824 sectors, multi 128: LBA48 NCQ (depth 32)
+03:18:00,720 INFO kernel:ata3.00: configured for UDMA/133
+03:18:00,810 INFO kernel:[drm] DMA map mode: Caching DMA mappings.
+03:18:00,810 INFO kernel:[drm] Capabilities:
+03:18:00,811 INFO kernel:[drm]   Cursor.
+03:18:00,811 INFO kernel:[drm]   Cursor bypass 2.
+03:18:00,811 INFO kernel:[drm]   Alpha cursor.
+03:18:00,811 INFO kernel:[drm]   3D.
+03:18:00,811 INFO kernel:[drm]   Extended Fifo.
+03:18:00,811 INFO kernel:[drm]   Pitchlock.
+03:18:00,811 INFO kernel:[drm]   Irq mask.
+03:18:00,811 INFO kernel:[drm]   GMR.
+03:18:00,811 INFO kernel:[drm]   Traces.
+03:18:00,811 INFO kernel:[drm]   GMR2.
+03:18:00,811 INFO kernel:[drm]   Screen Object 2.
+03:18:00,811 INFO kernel:[drm] Max GMR ids is 8192
+03:18:00,811 INFO kernel:[drm] Max number of GMR pages is 1048576
+03:18:00,811 INFO kernel:[drm] Max dedicated hypervisor surface memory is 393216 kiB
+03:18:00,811 INFO kernel:[drm] Maximum display memory size is 131072 kiB
+03:18:00,811 INFO kernel:[drm] VRAM at 0xe0000000 size is 131072 kiB
+03:18:00,811 INFO kernel:[drm] MMIO at 0xf0000000 size is 2048 kiB
+03:18:00,824 INFO kernel:[TTM] Zone  kernel: Available graphics memory: 1012554 KiB
+03:18:00,824 INFO kernel:[TTM] Initializing pool allocator
+03:18:00,824 INFO kernel:[TTM] Initializing DMA pool allocator
+03:18:00,952 INFO kernel:[drm] Screen Objects Display Unit initialized
+03:18:00,952 INFO kernel:[drm] width 720
+03:18:00,952 INFO kernel:[drm] height 400
+03:18:00,952 INFO kernel:[drm] bpp 32
+03:18:00,952 INFO kernel:[drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+03:18:00,952 INFO kernel:[drm] Atomic: yes.
+03:18:00,969 INFO kernel:fbcon: svgadrmfb (fb0) is primary device
+03:18:00,978 INFO kernel:Console: switching to colour frame buffer device 100x37
+03:18:00,979 INFO kernel:[drm] Initialized vmwgfx 2.18.0 20200114 for 0000:00:02.0 on minor 0
+03:18:01,000 INFO kernel:sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+03:18:01,000 INFO kernel:cdrom: Uniform CD-ROM driver Revision: 3.20
+03:18:01,180 INFO systemd:Started cancel waiting for multipath siblings of sda.
+03:18:01,303 INFO kernel:e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:b2:3b:bb
+03:18:01,303 INFO kernel:e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+03:18:01,306 INFO kernel:e1000 0000:00:03.0 enp0s3: renamed from eth0
+03:18:01,306 INFO systemd-udevd:Using default interface naming scheme 'rhel-8.0'.
+03:18:01,306 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+03:18:01,356 INFO kernel:8021q: 802.1Q VLAN Support v1.8
+03:18:01,427 INFO systemd:Started udev Wait for Complete Device Initialization.
+03:18:01,430 INFO systemd:Starting Device-Mapper Multipath Device Controller...
+03:18:01,438 INFO systemd:Started Device-Mapper Multipath Device Controller.
+03:18:01,438 INFO systemd:Starting Open-iSCSI...
+03:18:01,438 INFO systemd:Reached target Local File Systems (Pre).
+03:18:01,438 INFO systemd:Reached target Local File Systems.
+03:18:01,440 INFO systemd:Starting Create Volatile Files and Directories...
+03:18:01,480 INFO multipathd:--------start up--------
+03:18:01,480 INFO multipathd:read /etc/multipath.conf
+03:18:01,534 INFO iscsid:iscsid: can't open InitiatorName configuration file /etc/iscsi/initiatorname.iscsi
+03:18:01,534 INFO iscsid:iscsid: Warning: InitiatorName file /etc/iscsi/initiatorname.iscsi does not exist or does not contain a properly formatted InitiatorName. If using software iscsi (iscsi_tcp or ib_iser) or partial offload (bnx2i or cxgbi iscsi), you may not be able to log into or discover targets. Please create a file /etc/iscsi/initiatorname.iscsi that contains a sting with the format: InitiatorName=iqn.yyyy-mm.<reversed domain name>[:identifier].
+03:18:01,534 INFO iscsid:Example: InitiatorName=iqn.2001-04.com.redhat:fc6.
+03:18:01,534 INFO iscsid:If using hardware iscsi like qla4xxx this message can be ignored.
+03:18:01,534 INFO iscsid:iscsid: can't open InitiatorAlias configuration file /etc/iscsi/initiatorname.iscsi
+03:18:01,536 INFO systemd:Started Create Volatile Files and Directories.
+03:18:01,536 INFO multipathd:path checkers start up
+03:18:01,536 INFO systemd:Reached target System Initialization.
+03:18:01,537 INFO systemd:Reached target Basic System.
+03:18:01,537 INFO systemd:Started Open-iSCSI.
+03:18:01,537 INFO systemd:Starting dracut initqueue hook...
+03:18:01,613 INFO systemd:Reloading.
+03:18:02,144 INFO dracut-initqueue:anaconda using disk root at /dev/sr0
+03:18:02,252 INFO dracut-initqueue:anaconda: found /run/install/repo//images/install.img
+03:18:02,437 INFO kernel:loop: module loaded
+03:18:02,661 INFO systemd:run-initramfs-squashfs.mount: Succeeded.
+03:18:02,763 INFO systemd:Started dracut initqueue hook.
+03:18:02,763 INFO systemd:Reached target Remote File Systems (Pre).
+03:18:02,764 INFO systemd:Reached target Remote File Systems.
+03:18:02,765 INFO systemd:Starting dracut pre-mount hook...
+03:18:02,804 INFO systemd:Started dracut pre-mount hook.
+03:18:02,805 INFO systemd:Reached target Initrd Root File System.
+03:18:02,807 INFO systemd:Starting Reload Configuration from the Real Root...
+03:18:02,829 INFO systemd:Reloading.
+03:18:03,179 INFO systemd:initrd-parse-etc.service: Succeeded.
+03:18:03,179 INFO systemd:Started Reload Configuration from the Real Root.
+03:18:03,181 INFO systemd:Starting dracut mount hook...
+03:18:03,181 INFO systemd:Reached target Initrd File Systems.
+03:18:03,182 INFO systemd:Reached target Initrd Default Target.
+03:18:03,323 INFO kernel:EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+03:18:03,369 INFO systemd:Started dracut mount hook.
+03:18:03,369 INFO systemd:Starting dracut pre-pivot and cleanup hook...
+03:18:03,567 INFO systemd:var-lib-nfs-rpc_pipefs.mount: Succeeded.
+03:18:03,581 INFO systemd:Started dracut pre-pivot and cleanup hook.
+03:18:03,582 INFO systemd:Starting Cleaning Up and Shutting Down Daemons...
+03:18:03,597 INFO systemd:Starting Plymouth switch root service...
+03:18:03,597 INFO systemd:cancel-multipath-wait-sda.timer: Succeeded.
+03:18:03,598 INFO systemd:Stopped cancel waiting for multipath siblings of sda.
+03:18:03,602 INFO systemd:Starting Setup Virtual Console...
+03:18:03,602 INFO systemd:Stopped target Timers.
+03:18:03,605 INFO systemd:dracut-pre-pivot.service: Succeeded.
+03:18:03,605 INFO systemd:Stopped dracut pre-pivot and cleanup hook.
+03:18:03,605 INFO systemd:Stopped target Remote File Systems.
+03:18:03,607 INFO systemd:dracut-mount.service: Succeeded.
+03:18:03,608 INFO systemd:Stopped dracut mount hook.
+03:18:03,608 INFO systemd:dracut-pre-mount.service: Succeeded.
+03:18:03,608 INFO systemd:Stopped dracut pre-mount hook.
+03:18:03,608 INFO systemd:Stopped target Remote File Systems (Pre).
+03:18:03,609 INFO systemd:dracut-initqueue.service: Succeeded.
+03:18:03,610 INFO systemd:Stopped dracut initqueue hook.
+03:18:03,611 INFO systemd:Stopped target Initrd Default Target.
+03:18:03,612 INFO systemd:Stopped target Initrd Root Device.
+03:18:03,613 INFO systemd:Stopped target Basic System.
+03:18:03,613 INFO systemd:Stopped target System Initialization.
+03:18:03,614 INFO systemd:Stopped target Local Encrypted Volumes.
+03:18:03,616 INFO systemd:systemd-sysctl.service: Succeeded.
+03:18:03,616 INFO systemd:Stopped Apply Kernel Variables.
+03:18:03,618 INFO systemd:systemd-modules-load.service: Succeeded.
+03:18:03,618 INFO systemd:Stopped Load Kernel Modules.
+03:18:03,619 INFO systemd:systemd-tmpfiles-setup.service: Succeeded.
+03:18:03,619 INFO systemd:Stopped Create Volatile Files and Directories.
+03:18:03,620 INFO systemd:Stopped target Local File Systems.
+03:18:03,621 INFO systemd:Stopped target Local File Systems (Pre).
+03:18:03,621 INFO systemd:Stopped target Swap.
+03:18:03,625 INFO systemd:Stopped target Sockets.
+03:18:03,633 INFO systemd:Stopped target Slices.
+03:18:03,633 INFO systemd:Stopping Open-iSCSI...
+03:18:03,633 INFO systemd:Stopped target Paths.
+03:18:03,637 INFO iscsid:iscsid: iscsid shutting down.
+03:18:03,638 INFO systemd:Started Plymouth switch root service.
+03:18:03,638 INFO systemd:iscsid.service: Succeeded.
+03:18:03,638 INFO systemd:Stopped Open-iSCSI.
+03:18:03,642 INFO systemd:Stopping iSCSI UserSpace I/O driver...
+03:18:03,648 INFO systemd:Stopping Device-Mapper Multipath Device Controller...
+03:18:03,649 INFO systemd:iscsid.socket: Succeeded.
+03:18:03,650 INFO systemd:Closed Open-iSCSI iscsid Socket.
+03:18:03,651 INFO systemd:iscsiuio.service: Succeeded.
+03:18:03,652 INFO systemd:Stopped iSCSI UserSpace I/O driver.
+03:18:03,669 INFO multipathd:ok
+03:18:03,670 INFO systemd:initrd-cleanup.service: Succeeded.
+03:18:03,671 INFO systemd:Started Cleaning Up and Shutting Down Daemons.
+03:18:03,672 INFO systemd:systemd-vconsole-setup.service: Succeeded.
+03:18:03,673 INFO systemd:Started Setup Virtual Console.
+03:18:03,689 INFO multipathd:--------shut down-------
+03:18:03,690 INFO systemd:multipathd.service: Succeeded.
+03:18:03,690 INFO systemd:Stopped Device-Mapper Multipath Device Controller.
+03:18:03,694 INFO systemd:systemd-udev-settle.service: Succeeded.
+03:18:03,694 INFO systemd:Stopped udev Wait for Complete Device Initialization.
+03:18:03,695 INFO systemd:systemd-udev-trigger.service: Succeeded.
+03:18:03,695 INFO systemd:Stopped udev Coldplug all Devices.
+03:18:03,696 INFO systemd:dracut-pre-trigger.service: Succeeded.
+03:18:03,696 INFO systemd:Stopped dracut pre-trigger hook.
+03:18:03,697 INFO systemd:Stopping udev Kernel Device Manager...
+03:18:03,698 INFO systemd:iscsiuio.socket: Succeeded.
+03:18:03,698 INFO systemd:Closed Open-iSCSI iscsiuio Socket.
+03:18:03,705 INFO systemd:systemd-udevd.service: Succeeded.
+03:18:03,706 INFO systemd:Stopped udev Kernel Device Manager.
+03:18:03,707 INFO systemd:systemd-tmpfiles-setup-dev.service: Succeeded.
+03:18:03,707 INFO systemd:Stopped Create Static Device Nodes in /dev.
+03:18:03,708 INFO systemd:kmod-static-nodes.service: Succeeded.
+03:18:03,708 INFO systemd:Stopped Create list of required static device nodes for the current kernel.
+03:18:03,709 INFO systemd:dracut-pre-udev.service: Succeeded.
+03:18:03,709 INFO systemd:Stopped dracut pre-udev hook.
+03:18:03,709 INFO systemd:dracut-cmdline.service: Succeeded.
+03:18:03,710 INFO systemd:Stopped dracut cmdline hook.
+03:18:03,711 INFO systemd:Stopping Hardware RNG Entropy Gatherer Daemon...
+03:18:03,712 INFO systemd:systemd-udevd-control.socket: Succeeded.
+03:18:03,713 INFO systemd:Closed udev Control Socket.
+03:18:03,713 INFO systemd:systemd-udevd-kernel.socket: Succeeded.
+03:18:03,714 INFO systemd:Closed udev Kernel Socket.
+03:18:03,715 INFO systemd:Starting Cleanup udevd DB...
+03:18:03,716 INFO systemd:rngd.service: Succeeded.
+03:18:03,717 INFO systemd:Stopped Hardware RNG Entropy Gatherer Daemon.
+03:18:03,734 INFO systemd:initrd-udevadm-cleanup-db.service: Succeeded.
+03:18:03,734 INFO systemd:Started Cleanup udevd DB.
+03:18:03,734 INFO systemd:Reached target Switch Root.
+03:18:03,735 INFO systemd:Starting Switch Root...
+03:18:03,779 INFO systemd-journald:Journal stopped
+03:18:07,118 INFO kernel:SELinux:  policy capability network_peer_controls=1
+03:18:07,118 INFO kernel:SELinux:  policy capability open_perms=1
+03:18:07,118 INFO kernel:SELinux:  policy capability extended_socket_class=1
+03:18:07,118 INFO kernel:SELinux:  policy capability always_check_network=0
+03:18:07,118 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+03:18:07,118 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+03:18:07,118 INFO systemd:Successfully loaded SELinux policy in 536.204ms.
+03:18:07,118 INFO systemd:Relabelled /dev, /run and /sys/fs/cgroup in 57.599ms.
+03:18:07,118 INFO systemd:systemd 239 (239-45.el8) running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 +SECCOMP +BLKID +ELFUTILS +KMOD +IDN2 -IDN +PCRE2 default-hierarchy=legacy)
+03:18:07,118 INFO systemd:Detected virtualization oracle.
+03:18:07,118 INFO systemd:Detected architecture x86-64.
+03:18:07,118 INFO systemd:systemd-journald.service: Succeeded.
+03:18:07,118 INFO systemd:initrd-switch-root.service: Succeeded.
+03:18:07,118 INFO systemd:Stopped Switch Root.
+03:18:07,118 INFO systemd:systemd-journald.service: Service has no hold-off time (RestartSec=0), scheduling restart.
+03:18:07,118 INFO systemd:systemd-journald.service: Scheduled restart job, restart counter is at 1.
+03:18:07,118 INFO systemd:Stopped Journal Service.
+03:18:07,118 INFO systemd:Starting Journal Service...
+03:18:07,118 INFO systemd-journald:Journal started
+03:18:07,119 INFO systemd-journald:Runtime journal (/run/log/journal/1d1b9c074b8446669ce77d9302073c17) is 8.0M, max 98.8M, 90.8M free.
+03:18:07,119 INFO systemd-modules-load:Module 'msr' is builtin
+03:18:07,149 INFO systemd:Started Remount Root and Kernel File Systems.
+03:18:07,150 INFO systemd:Mounted Huge Pages File System.
+03:18:07,151 INFO systemd:Started Load Kernel Modules.
+03:18:07,153 INFO systemd:Mounted Temporary Directory (/tmp).
+03:18:07,154 INFO systemd:Started Create list of required static device nodes for the current kernel.
+03:18:07,155 INFO systemd:Mounted Kernel Debug File System.
+03:18:07,157 INFO systemd:Starting Apply Kernel Variables...
+03:18:07,190 INFO systemd:Starting Rebuild Hardware Database...
+03:18:07,191 INFO systemd:Starting Load/Save Random Seed...
+03:18:07,193 INFO systemd:Starting Create System Users...
+03:18:07,213 INFO systemd:Starting Flush Journal to Persistent Storage...
+03:18:07,224 INFO systemd:Mounted POSIX Message Queue File System.
+03:18:07,272 INFO systemd-journald:Runtime journal (/run/log/journal/1d1b9c074b8446669ce77d9302073c17) is 8.0M, max 98.8M, 90.8M free.
+03:18:07,295 INFO systemd:Started Apply Kernel Variables.
+03:18:07,299 INFO systemd:Started Flush Journal to Persistent Storage.
+03:18:07,305 INFO systemd:Started Load/Save Random Seed.
+03:18:07,355 INFO systemd:Started Create System Users.
+03:18:07,355 INFO systemd:Starting Create Static Device Nodes in /dev...
+03:18:07,477 INFO systemd:Started Create Static Device Nodes in /dev.
+03:18:07,657 INFO systemd:Started udev Coldplug all Devices.
+03:18:07,657 INFO systemd:Starting udev Wait for Complete Device Initialization...
+03:18:07,763 INFO systemd:systemd-vconsole-setup.service: Succeeded.
+03:18:07,763 INFO systemd:Started Setup Virtual Console.
+03:18:08,156 INFO systemd:Started Rebuild Hardware Database.
+03:18:08,156 INFO systemd:Starting udev Kernel Device Manager...
+03:18:08,288 INFO systemd:Started udev Kernel Device Manager.
+03:18:08,552 INFO systemd-udevd:Using default interface naming scheme 'rhel-8.0'.
+03:18:08,553 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+03:18:08,644 INFO kernel:piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+03:18:08,733 INFO kernel:input: PC Speaker as /devices/platform/pcspkr/input/input7
+03:18:08,929 INFO systemd-udevd:link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+03:18:09,114 INFO kernel:RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+03:18:09,353 INFO kernel:intel_pmc_core intel_pmc_core.0:  initialized
+03:18:09,575 INFO systemd:Started cancel waiting for multipath siblings of sda.
+03:18:09,726 INFO systemd:Started udev Wait for Complete Device Initialization.
+03:18:09,727 INFO systemd:Starting Device-Mapper Multipath Device Controller...
+03:18:09,949 INFO multipathd:--------start up--------
+03:18:09,950 INFO multipathd:read /etc/multipath.conf
+03:18:09,956 INFO multipathd:path checkers start up
+03:18:09,981 INFO systemd:Started Device-Mapper Multipath Device Controller.
+03:18:09,981 INFO systemd:Reached target Local File Systems (Pre).
+03:18:09,981 INFO systemd:Reached target Local File Systems.
+03:18:09,983 INFO systemd:Starting Rebuild Journal Catalog...
+03:18:09,984 INFO systemd:Starting Tell Plymouth To Write Out Runtime Data...
+03:18:09,986 INFO systemd:Starting Rebuild Dynamic Linker Cache...
+03:18:09,988 INFO systemd:Starting Import network configuration from initramfs...
+03:18:09,990 INFO systemd:Starting Restore /run/initramfs on shutdown...
+03:18:10,050 INFO systemd:Started Restore /run/initramfs on shutdown.
+03:18:10,107 INFO systemd:Received SIGRTMIN+20 from PID 905 (plymouthd).
+03:18:10,113 INFO systemd:Started Tell Plymouth To Write Out Runtime Data.
+03:18:10,157 INFO systemd:Started Rebuild Journal Catalog.
+03:18:10,226 INFO systemd:Started Import network configuration from initramfs.
+03:18:10,227 INFO systemd:Starting Create Volatile Files and Directories...
+03:18:10,340 INFO systemd:Started Create Volatile Files and Directories.
+03:18:10,340 INFO systemd:Starting Update UTMP about System Boot/Shutdown...
+03:18:10,366 INFO systemd:Started Update UTMP about System Boot/Shutdown.
+03:18:11,265 INFO systemd:Started cancel waiting for multipath siblings of sda.
+03:18:11,301 INFO systemd:cancel-multipath-wait-sda.service: Succeeded.
+03:18:11,301 INFO systemd:cancel-multipath-wait-sda.timer: Succeeded.
+03:18:13,416 INFO systemd:Started Rebuild Dynamic Linker Cache.
+03:18:13,417 INFO systemd:Starting Update is Completed...
+03:18:13,453 INFO systemd:Started Update is Completed.
+03:18:13,453 INFO systemd:Reached target System Initialization.
+03:18:13,454 INFO systemd:Started Daily Cleanup of Temporary Directories.
+03:18:13,454 INFO systemd:Reached target Timers.
+03:18:13,454 INFO systemd:Listening on Open-iSCSI iscsiuio Socket.
+03:18:13,454 INFO systemd:Listening on D-Bus System Message Bus Socket.
+03:18:13,454 INFO systemd:Listening on Open-iSCSI iscsid Socket.
+03:18:13,455 INFO systemd:Reached target Sockets.
+03:18:13,456 INFO systemd:Reached target Basic System.
+03:18:13,458 INFO systemd:Starting Hardware RNG Entropy Gatherer Wake threshold service...
+03:18:13,460 INFO systemd:Starting pre-anaconda logging service...
+03:18:13,462 INFO systemd:Starting Hold until boot process finishes up...
+03:18:13,473 INFO systemd:Starting OpenSSH rsa Server Key Generation...
+03:18:13,474 INFO systemd:Starting OpenSSH ecdsa Server Key Generation...
+03:18:13,474 INFO systemd:Starting Anaconda NetworkManager configuration...
+03:18:13,477 INFO systemd:Starting Login Service...
+03:18:13,480 INFO systemd:Starting Terminate Plymouth Boot Screen...
+03:18:13,488 INFO systemd:Starting OpenSSH ed25519 Server Key Generation...
+03:18:13,500 INFO systemd:Starting Service enabling compressing RAM with zRam...
+03:18:13,518 INFO zramswapon:+ MAX_RAM_ON=2097152
+03:18:13,552 INFO zramswapon:++ grep MemTotal /proc/meminfo
+03:18:13,552 INFO systemd:Started Hardware RNG Entropy Gatherer Wake threshold service.
+03:18:13,554 INFO systemd:Started Hold until boot process finishes up.
+03:18:13,606 INFO zramswapon:++ grep -E --only-matching '[[:digit:]]+'
+03:18:13,612 INFO systemd:anaconda-pre.service: Succeeded.
+03:18:13,613 INFO systemd:Started pre-anaconda logging service.
+03:18:13,614 INFO systemd:anaconda-nm-config.service: Succeeded.
+03:18:13,615 INFO systemd:Started Anaconda NetworkManager configuration.
+03:18:13,617 INFO zramswapon:+ mem_total_kb=2025108
+03:18:13,617 INFO zramswapon:+ grep -E 'inst\.zram=(on|1)' /proc/cmdline
+03:18:13,645 INFO zramswapon:+ force=1
+03:18:13,645 INFO zramswapon:+ '[' '(' 2025108 -gt 2097152 ')' -a '(' 1 '!=' 0 ')' ']'
+03:18:13,649 INFO systemd:Started Terminate Plymouth Boot Screen.
+03:18:13,672 INFO systemd:Received SIGRTMIN+21 from PID 905 (n/a).
+03:18:13,672 INFO systemd:Received SIGRTMIN+21 from PID 905 (n/a).
+03:18:13,681 INFO zramswapon:++ getconf _NPROCESSORS_ONLN
+03:18:13,683 INFO systemd:Starting Network Manager...
+03:18:13,685 INFO systemd:Started Hardware RNG Entropy Gatherer Daemon.
+03:18:13,713 INFO zramswapon:+ num_cpus=2
+03:18:13,713 INFO zramswapon:+ modprobe zram
+03:18:13,828 INFO systemd:Started D-Bus System Message Bus.
+03:18:13,927 INFO zramswapon:+ echo 2
+03:18:13,927 INFO zramswapon:+ echo 2025108K
+03:18:13,928 INFO kernel:zram: Added device: zram0
+03:18:13,933 INFO kernel:zram0: detected capacity change from 0 to 2073710592
+03:18:13,934 INFO zramswapon:+ mkswap /dev/zram0
+03:18:13,982 INFO systemd-logind:New seat seat0.
+03:18:13,989 INFO zramswapon:Setting up swapspace version 1, size = 2 GiB (2073706496 bytes)
+03:18:13,989 INFO zramswapon:no label, UUID=86845759-35fd-4052-935b-a6159c246f4e
+03:18:13,991 INFO systemd-logind:Watching system buttons on /dev/input/event0 (Power Button)
+03:18:13,993 INFO zramswapon:+ swapon -p 100 /dev/zram0
+03:18:13,994 INFO systemd-logind:Watching system buttons on /dev/input/event1 (Sleep Button)
+03:18:14,022 INFO systemd-logind:Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+03:18:14,072 INFO kernel:Adding 2025104k swap on /dev/zram0.  Priority:100 extents:1 across:2025104k SSFS
+03:18:14,075 INFO zramswapon:+ '[' 2025108 -le 1048576 ']'
+03:18:14,075 INFO zramswapon:+ exit 0
+03:18:14,270 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.systemd1'
+03:18:14,275 INFO NetworkManager:<info>  [1624331894.2758] NetworkManager (version 1.30.0-7.el8) is starting... (for the first time)
+03:18:14,276 INFO NetworkManager:<info>  [1624331894.2760] Read config: /etc/NetworkManager/NetworkManager.conf (etc: 80-anaconda-no-ibft.conf, 90-anaconda-no-auto-default.conf, 91-anaconda-autoconnect-slaves.conf, 92-anaconda-loglevel-debug.conf)
+03:18:14,281 INFO systemd:Started Login Service.
+03:18:14,290 INFO systemd:sshd-keygen@ecdsa.service: Succeeded.
+03:18:14,291 INFO systemd:Started OpenSSH ecdsa Server Key Generation.
+03:18:14,292 INFO systemd:sshd-keygen@ed25519.service: Succeeded.
+03:18:14,292 INFO systemd:Started OpenSSH ed25519 Server Key Generation.
+03:18:14,293 INFO systemd:Started Service enabling compressing RAM with zRam.
+03:18:14,301 INFO NetworkManager:<info>  [1624331894.3010] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+03:18:14,352 INFO systemd:Started Network Manager.
+03:18:14,357 INFO systemd:Starting Network Manager Wait Online...
+03:18:14,358 INFO systemd:Reached target Network.
+03:18:14,358 INFO systemd:Starting RHSM dbus service...
+03:18:14,358 INFO NetworkManager:<info>  [1624331894.3585] manager[0x55a8442ca010]: monitoring kernel firmware directory '/lib/firmware'.
+03:18:14,367 INFO rngd:Initializing available sources
+03:18:14,376 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.3' (uid=0 pid=1638 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+03:18:14,376 INFO rngd:Failed to init entropy source hwrng
+03:18:14,376 INFO rngd:Enabling RDSEED rng support
+03:18:14,376 INFO rngd:Initializing entropy source rdrand
+03:18:14,453 INFO systemd:Starting Hostname Service...
+03:18:15,658 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+03:18:15,659 INFO systemd:Started Hostname Service.
+03:18:15,665 INFO NetworkManager:<info>  [1624331895.6622] hostname: hostname: using hostnamed
+03:18:15,666 INFO NetworkManager:<info>  [1624331895.6628] dns-mgr[0x55a8442be1c0]: init: dns=default,systemd-resolved rc-manager=symlink
+03:18:15,811 INFO NetworkManager:<info>  [1624331895.8108] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.30.0-7.el8/libnm-device-plugin-wifi.so)
+03:18:15,813 INFO NetworkManager:<info>  [1624331895.8134] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.30.0-7.el8/libnm-device-plugin-team.so)
+03:18:15,813 INFO NetworkManager:<info>  [1624331895.8136] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+03:18:15,814 INFO NetworkManager:<info>  [1624331895.8140] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+03:18:15,814 INFO NetworkManager:<info>  [1624331895.8144] manager: Networking is enabled by state file
+03:18:15,815 INFO NetworkManager:<info>  [1624331895.8155] dhcp-init: Using DHCP client 'internal'
+03:18:15,873 INFO NetworkManager:<info>  [1624331895.8726] settings: Loaded settings plugin: ifcfg-rh ("/usr/lib64/NetworkManager/1.30.0-7.el8/libnm-settings-plugin-ifcfg-rh.so")
+03:18:15,873 INFO NetworkManager:<info>  [1624331895.8727] settings: Loaded settings plugin: keyfile (internal)
+03:18:15,888 INFO NetworkManager:<info>  [1624331895.8872] device (lo): carrier: link connected
+03:18:15,894 INFO NetworkManager:<info>  [1624331895.8900] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+03:18:15,993 INFO kernel:IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+03:18:15,993 INFO kernel:IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+03:18:15,993 INFO kernel:8021q: adding VLAN 0 to HW filter on device enp0s3
+03:18:15,993 INFO kernel:e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+03:18:15,993 INFO kernel:IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+03:18:15,993 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=1638 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+03:18:16,013 INFO NetworkManager:<info>  [1624331895.9159] manager: (enp0s3): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+03:18:16,017 INFO NetworkManager:<info>  [1624331895.9185] device (enp0s3): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+03:18:16,040 INFO NetworkManager:<info>  [1624331895.9471] device (enp0s3): carrier: link connected
+03:18:16,084 INFO NetworkManager:<info>  [1624331895.9784] device (enp0s3): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+03:18:16,244 INFO systemd:Starting Network Manager Script Dispatcher Service...
+03:18:16,246 INFO NetworkManager:<info>  [1624331896.0146] manager: startup complete
+03:18:16,251 INFO systemd:Started Network Manager Wait Online.
+03:18:16,251 INFO systemd:Reached target Network is Online.
+03:18:16,301 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+03:18:16,303 INFO nm-dispatcher:req:1 'hostname': new request (2 scripts)
+03:18:16,304 INFO nm-dispatcher:req:1 'hostname': start running ordered scripts...
+03:18:16,324 INFO nm-dispatcher:req:2 'connectivity-change': new request (2 scripts)
+03:18:16,336 INFO nm-dispatcher:req:2 'connectivity-change': start running ordered scripts...
+03:18:16,388 INFO systemd:Starting System Logging Service...
+03:18:16,390 INFO systemd:Started Network Manager Script Dispatcher Service.
+03:18:17,032 INFO systemd:Started System Logging Service.
+03:18:17,033 INFO rsyslogd:[origin software="rsyslogd" swVersion="8.1911.0-7.el8" x-pid="1684" x-info="https://www.rsyslog.com"] start
+03:18:21,056 INFO systemd:sshd-keygen@rsa.service: Succeeded.
+03:18:21,058 INFO systemd:Started OpenSSH rsa Server Key Generation.
+03:18:21,060 INFO systemd:Reached target sshd-keygen.target.
+03:18:22,228 INFO rngd:Initializing AES buffer
+03:18:22,228 INFO rngd:Enabling JITTER rng support
+03:18:22,228 INFO rngd:Initializing entropy source jitter
+03:18:26,400 INFO systemd:NetworkManager-dispatcher.service: Succeeded.
+03:18:27,595 INFO systemd:Started RHSM dbus service.
+03:18:27,595 INFO systemd:Reached target Anaconda System Services.
+03:18:27,597 INFO systemd:Starting Anaconda...
+03:18:27,877 INFO systemd:Started Anaconda.
+03:18:27,879 INFO systemd:Started Anaconda Text Console.
+03:18:27,879 INFO systemd:Startup finished in 15.132s (kernel) + 15.271s (initrd) + 23.088s (userspace) = 53.492s.
+03:18:34,127 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Boss' requested by ':1.0' (uid=0 pid=1714 comm="/usr/libexec/platform-python /sbin/anaconda " label="system_u:system_r:kernel_t:s0")
+03:18:35,171 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:35,183 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Boss'
+03:18:35,195 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.threading:Running Thread: AnaTaskThread-StartModulesTask-1 (140059014645504)
+03:18:35,202 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Timezone' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,204 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Network' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,206 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Localization' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,215 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Security' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,216 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Users' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,218 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Payloads' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,221 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Storage' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:35,224 INFO dbus-daemon:Activating service name='org.fedoraproject.Anaconda.Modules.Services' requested by ':1.1' (uid=0 pid=1745 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:38,135 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:38,171 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Services'
+03:18:38,208 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:38,233 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Security'
+03:18:38,569 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [1] lvm version ...
+03:18:38,603 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/territories.xml.gz' 0x7f23a07b50f0>
+03:18:38,678 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/territories.xml.gz' 0x7f270f5d76a0>
+03:18:38,702 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:38,758 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[1]:   LVM version:     2.03.11(2)-RHEL8 (2021-01-28)
+03:18:38,758 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[1]:
+03:18:38,758 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [1] (exit code: 0)
+03:18:38,767 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Users'
+03:18:38,806 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:38,851 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Payloads'
+03:18:38,855 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm trigger --action=change --subsystem-match=block
+03:18:38,872 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:dasbus.connection:Connecting to the system bus.
+03:18:38,873 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:dasbus.connection:Connecting to the system bus.
+03:18:38,904 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:18:38,960 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:39,002 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Network'
+03:18:39,743 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service' requested by ':1.11' (uid=0 pid=1774 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:18:39,745 INFO systemd:Starting Disk Manager...
+03:18:39,887 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.12' (uid=0 pid=1826 comm="/usr/libexec/udisks2/udisksd " label="system_u:system_r:kernel_t:s0")
+03:18:39,890 INFO systemd:Starting Authorization Manager...
+03:18:40,166 INFO polkitd:Started polkitd version 0.115
+03:18:41,012 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.PolicyKit1'
+03:18:41,013 INFO systemd:Started Authorization Manager.
+03:18:41,132 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/languages.xml.gz' 0x7f23a07ca8d0>
+03:18:41,240 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.UDisks2'
+03:18:41,241 INFO systemd:Started Disk Manager.
+03:18:41,381 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/languages.xml.gz' 0x7f270f56b128>
+03:18:42,703 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... modprobe libfc
+03:18:42,986 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... /usr/libexec/fcoe/fcoe_edd.sh -i
+03:18:43,021 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:18:43,023 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:No FCoE boot disk information is found in EDD!
+03:18:43,023 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:No FCoE EDD info found: No FCoE boot disk information is found in EDD!
+03:18:43,023 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:ISCSID is /sbin/iscsid
+03:18:43,023 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:no initiator set
+03:18:43,025 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [2] e2fsck -V ...
+03:18:43,091 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[2]:
+03:18:43,091 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[2]: e2fsck 1.45.6 (20-Mar-2020)
+03:18:43,091 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [2] (exit code: 0)
+03:18:43,166 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... lsblk --bytes -a -o NAME,SIZE,OWNER,GROUP,MODE,FSTYPE,LABEL,UUID,PARTUUID,MOUNTPOINT
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:NAME                SIZE OWNER GROUP MODE       FSTYPE          LABEL                      UUID                                 PARTUUID MOUNTPOINT
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:loop0          649355264 root  disk  brw-rw---- squashfs
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:loop1         3221225472 root  disk  brw-rw---- ext4            Anaconda                   8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:|-live-rw     3221225472 root  disk  brw-rw---- ext4            Anaconda                   8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6          /
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:`-live-base   3221225472 root  disk  brw-rw---- ext4            Anaconda                   8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:loop2        34359738368 root  disk  brw-rw---- DM_snapshot_cow
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:`-live-rw     3221225472 root  disk  brw-rw---- ext4            Anaconda                   8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6          /
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:sda         549755813888 root  disk  brw-rw----
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:sr0           9928966144 root  cdrom brw-rw---- iso9660         CentOS-8-4-2105-x86_64-dvd 2021-06-01-20-39-18-00                        /run/install/repo
+03:18:43,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:zram0         2073710592 root  disk  brw-rw----                                                                                          [SWAP]
+03:18:43,208 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... modprobe --dry-run xfs
+03:18:43,231 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:43,295 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Storage'
+03:18:43,663 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/keyboards.xml.gz' 0x7f23a07ca898>
+03:18:43,703 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/timezones.xml.gz' 0x7f23a07ca8d0>
+03:18:43,706 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/timezoneidparts.xml.gz' 0x7f23a07ca898>
+03:18:43,795 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/keyboards.xml.gz' 0x7f270f56b160>
+03:18:43,821 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/timezones.xml.gz' 0x7f270f56b128>
+03:18:43,827 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/timezoneidparts.xml.gz' 0x7f270f56b160>
+03:18:44,818 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:44,829 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Timezone'
+03:18:44,855 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:anaconda.core.dbus:Connecting to the Anaconda bus at unix:abstract=/tmp/dbus-AH6ymqefFd,guid=13649271a64c12f50690099c60d1568a.
+03:18:44,866 INFO dbus-daemon:Successfully activated service 'org.fedoraproject.Anaconda.Modules.Localization'
+03:18:44,873 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.threading:Thread Done: AnaTaskThread-StartModulesTask-1 (140059014645504)
+03:18:45,741 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.boss:Reading a kickstart file at /usr/share/anaconda/interactive-defaults.ks.
+03:18:45,991 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Timezone handles commands ['timezone'] sections [] addons [].
+03:18:45,992 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Timezone.
+03:18:45,999 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Network handles commands ['network', 'firewall'] sections [] addons [].
+03:18:46,000 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Network.
+03:18:46,007 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Localization handles commands ['keyboard', 'lang'] sections [] addons [].
+03:18:46,008 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Localization.
+03:18:46,015 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Security handles commands ['auth', 'authconfig', 'authselect', 'selinux', 'realm'] sections [] addons [].
+03:18:46,015 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Security.
+03:18:46,023 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Users handles commands ['rootpw', 'user', 'group', 'sshkey'] sections [] addons [].
+03:18:46,023 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Users.
+03:18:46,032 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Payloads handles commands ['cdrom', 'harddrive', 'hmc', 'liveimg', 'nfs', 'url'] sections [] addons [].
+03:18:46,032 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Payloads.
+03:18:46,041 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Storage handles commands ['autopart', 'bootloader', 'btrfs', 'clearpart', 'fcoe', 'ignoredisk', 'iscsi', 'iscsiname', 'logvol', 'mount', 'nvdimm', 'part', 'partition', 'raid', 'reqpart', 'snapshot', 'volgroup', 'zerombr', 'zfcp', 'zipl'] sections [] addons [].
+03:18:46,042 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:There are no kickstart data for org.fedoraproject.Anaconda.Modules.Storage.
+03:18:46,049 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.kickstart_manager.kickstart_manager:org.fedoraproject.Anaconda.Modules.Services handles commands ['firstboot', 'services', 'skipx', 'xconfig'] sections [] addons [].
+03:18:47,779 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/territories.xml.gz' 0x7f0309900dd8>
+03:18:49,246 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/languages.xml.gz' 0x7f0309900c50>
+03:18:50,520 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/keyboards.xml.gz' 0x7f03098a1f60>
+03:18:50,555 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/timezones.xml.gz' 0x7f0309900dd8>
+03:18:50,559 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:root:reading file=<gzip _io.BufferedReader name='/usr/lib/python3.6/site-packages/langtable/data/timezoneidparts.xml.gz' 0x7f03098a1f98>
+03:18:51,883 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.boss:Setting locale of all modules to en_US.UTF-8.
+03:18:51,883 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.module_manager.module_manager:Setting locale of all modules to en_US.UTF-8.
+03:18:51,944 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConsolidateInitramfsConnectionsTask-1 (139908674135808)
+03:18:51,945 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConsolidateInitramfsConnectionsTask-1 (139908674135808)
+03:18:51,964 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-ApplyKickstartTask-1 (139908674135808)
+03:18:51,965 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-ApplyKickstartTask-1 (139908674135808)
+03:18:51,993 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-DumpMissingIfcfgFilesTask-1 (139908674135808)
+03:18:52,009 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-DumpMissingIfcfgFilesTask-1 (139908674135808)
+03:18:52,026 INFO NetworkManager:<info>  [1624331932.0183] audit: op="connection-add" uuid="c40618d0-da83-42c9-906e-272d05e8731b" name="enp0s3" pid=1763 uid=0 result="success"
+03:18:53,020 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-SetRealOnbootValuesFromKickstartTask-1 (139908674135808)
+03:18:53,021 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-SetRealOnbootValuesFromKickstartTask-1 (139908674135808)
+03:19:08,998 INFO systemd:systemd-hostnamed.service: Succeeded.
+03:19:10,473 INFO dbus-daemon:[session uid=0 pid=1911] Activating service name='org.a11y.Bus' requested by ':1.0' (uid=0 pid=1887 comm="metacity --display :1 --sm-disable " label="system_u:system_r:kernel_t:s0")
+03:19:11,039 INFO dbus-daemon:[session uid=0 pid=1911] Successfully activated service 'org.a11y.Bus'
+03:19:11,526 INFO org.a11y.Bus:SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+03:19:13,408 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-ScanDevicesTask-1 (139725915072256)
+03:19:13,409 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:no initiator set
+03:19:13,409 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:resetting Blivet (version 3.2.2) instance <pyanaconda.modules.storage.devicetree.model.InstallerStorage object at 0x7f14798e1f28>
+03:19:13,410 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:DeviceTree.populate: ignored_disks is [] ; exclusive_disks is []
+03:19:13,414 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [3] multipath --version ...
+03:19:13,424 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[3]:
+03:19:13,424 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[3]: Unknown switch: (null)
+03:19:13,426 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [3] (exit code: 1)
+03:19:13,426 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [4] mpathconf --find_multipaths y --user_friendly_names y --with_multipathd y ...
+03:19:13,981 INFO systemd:Starting NTP client/server...
+03:19:13,991 INFO multipathd:Multipath configuration updated.
+03:19:13,991 INFO multipathd:Reload multipathd for changes to take effect
+03:19:14,009 INFO systemd:Reloading Device-Mapper Multipath Device Controller.
+03:19:14,019 INFO multipathd:reconfigure (operator)
+03:19:14,024 INFO multipathd:ok
+03:19:14,027 INFO systemd:Reloaded Device-Mapper Multipath Device Controller.
+03:19:14,029 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[4]:
+03:19:14,029 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[4]:
+03:19:14,029 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [4] (exit code: 0)
+03:19:14,029 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:14,078 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:devices to scan: ['sr0', 'sda', 'loop0', 'loop1', 'loop2', 'live-rw', 'live-base']
+03:19:14,087 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning sr0 (/sys/devices/pci0000:00/0000:00:01.1/ata2/host1/target1:0:0/1:0:0:0/block/sr0)...
+03:19:14,087 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [5] lvm lvs --noheadings --nosuffix --nameprefixes --unquoted --units=b -a -o vg_name,lv_name,lv_uuid,lv_size,lv_attr,segtype,origin,pool_lv,data_lv,metadata_lv,role,move_pv,data_percent,metadata_percent,copy_percent --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:19:14,215 INFO chronyd:chronyd version 3.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG)
+03:19:14,375 INFO chronyd:Using right/UTC timezone to obtain leap second data
+03:19:14,404 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[5]:
+03:19:14,404 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[5]:
+03:19:14,404 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [5] (exit code: 0)
+03:19:14,409 INFO systemd:Started NTP client/server.
+03:19:14,436 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added cdrom sr0 (id 4) to device tree
+03:19:14,438 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: OpticalDevice instance (0x7f1479050390) --
+03:19:14,476 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:type detected on 'sr0' is 'iso9660'
+03:19:14,484 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got format: existing iso9660 filesystem
+03:19:14,497 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning sda (/sys/devices/pci0000:00/0000:00:0d.0/ata3/host2/target2:0:0/2:0:0:0/block/sda)...
+03:19:14,508 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:sda is a disk
+03:19:14,525 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added disk sda (id 14) to device tree
+03:19:14,527 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: DiskDevice instance (0x7f1479014d68) --
+03:19:14,535 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning loop0 (/sys/devices/virtual/block/loop0)...
+03:19:14,552 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added file /run/install/repo/images/install.img (id 19) to device tree
+03:19:14,562 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added loop loop0 (id 23) to device tree
+03:19:14,563 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: LoopDevice instance (0x7f1479026d30) --
+03:19:14,601 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:type detected on 'loop0' is 'squashfs'
+03:19:14,606 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got format: existing None
+03:19:14,613 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning loop1 (/sys/devices/virtual/block/loop1)...
+03:19:14,636 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added file /LiveOS/rootfs.img (id 33) to device tree
+03:19:14,644 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added loop loop1 (id 37) to device tree
+03:19:14,645 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: LoopDevice instance (0x7f1479989320) --
+03:19:14,672 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:type detected on 'loop1' is 'ext4'
+03:19:14,672 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... dumpe2fs -h /dev/loop1
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem volume name:   Anaconda
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last mounted on:          /var/tmp/lorax/lorax.imgutils.7d1unh5i
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem UUID:          8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem magic number:  0xEF53
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem revision #:    1 (dynamic)
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem features:      has_journal ext_attr resize_inode dir_index filetype extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem flags:         signed_directory_hash
+03:19:14,680 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Default mount options:    user_xattr acl
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem state:         clean
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Errors behavior:          Continue
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem OS type:       Linux
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode count:              196608
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Block count:              786432
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved block count:     0
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Free blocks:              187738
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Free inodes:              157693
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:First block:              0
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Block size:               4096
+03:19:14,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Fragment size:            4096
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Group descriptor size:    64
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved GDT blocks:      383
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Blocks per group:         32768
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Fragments per group:      32768
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inodes per group:         8192
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode blocks per group:   512
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Flex block group size:    16
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem created:       Tue Jun  1 20:17:06 2021
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last mount time:          Tue Jun  1 20:17:06 2021
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last write time:          Tue Jun  1 20:17:32 2021
+03:19:14,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Mount count:              1
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Maximum mount count:      -1
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last checked:             Tue Jun  1 20:17:06 2021
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Check interval:           0 (<none>)
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Lifetime writes:          2272 MB
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved blocks uid:      0 (user root)
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved blocks gid:      0 (group root)
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:First inode:              11
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode size:#011          256
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Required extra isize:     32
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Desired extra isize:      32
+03:19:14,683 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal inode:            8
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Default directory hash:   half_md4
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Directory Hash Seed:      34bf795f-f73d-470a-a73a-c0beb10500b2
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal backup:           inode blocks
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Checksum type:            crc32c
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Checksum:                 0x6007a497
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal features:         journal_64bit journal_checksum_v3
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal size:             64M
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal length:           16384
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal sequence:         0x00000006
+03:19:14,684 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal start:            0
+03:19:14,685 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal checksum type:    crc32c
+03:19:14,685 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal checksum:         0x9bb603fb
+03:19:14,685 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:
+03:19:14,685 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:19:14,687 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'dumpe2fs 1.45.6 (20-Mar-2020)'
+03:19:14,688 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... resize2fs -P /dev/loop1
+03:19:14,773 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:19:14,773 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Couldn't find valid filesystem superblock.
+03:19:14,773 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:19:14,774 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'resize2fs 1.45.6 (20-Mar-2020)'
+03:19:14,774 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'resize2fs: Device or resource busy while trying to open /dev/loop1'
+03:19:14,788 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got format: existing ext4 filesystem
+03:19:14,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning loop2 (/sys/devices/virtual/block/loop2)...
+03:19:14,846 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added file /overlay (deleted) (id 47) to device tree
+03:19:14,862 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added loop loop2 (id 51) to device tree
+03:19:14,863 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: LoopDevice instance (0x7f1478fe03c8) --
+03:19:14,889 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:type detected on 'loop2' is 'DM_snapshot_cow'
+03:19:14,893 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got format: existing None
+03:19:14,899 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning live-rw (/sys/devices/virtual/block/dm-0)...
+03:19:14,905 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [6] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,066 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[6]:
+03:19:15,073 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[6]:
+03:19:15,073 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [6] (exit code: 0)
+03:19:15,073 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [7] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,088 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[7]:
+03:19:15,088 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[7]:
+03:19:15,088 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [7] (exit code: 0)
+03:19:15,088 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [8] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,104 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[8]:
+03:19:15,105 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[8]:
+03:19:15,105 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [8] (exit code: 0)
+03:19:15,106 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [9] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,120 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[9]:
+03:19:15,125 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[9]:
+03:19:15,125 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [9] (exit code: 0)
+03:19:15,126 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [10] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,140 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[10]:
+03:19:15,141 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[10]:
+03:19:15,141 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [10] (exit code: 0)
+03:19:15,141 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [11] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,160 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[11]:
+03:19:15,161 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[11]:
+03:19:15,161 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [11] (exit code: 0)
+03:19:15,161 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [12] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,203 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[12]:
+03:19:15,204 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[12]:
+03:19:15,204 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [12] (exit code: 0)
+03:19:15,205 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [13] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,219 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[13]:
+03:19:15,220 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[13]:
+03:19:15,220 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [13] (exit code: 0)
+03:19:15,220 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [14] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,251 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[14]:
+03:19:15,251 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[14]:
+03:19:15,251 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [14] (exit code: 0)
+03:19:15,314 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added dm live-rw (id 61) to device tree
+03:19:15,316 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: DMDevice instance (0x7f1478fe06a0) --
+03:19:15,319 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [15] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,343 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[15]:
+03:19:15,343 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[15]:
+03:19:15,344 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [15] (exit code: 0)
+03:19:15,344 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [16] dmsetup info -co subsystem --noheadings live-rw ...
+03:19:15,360 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[16]:
+03:19:15,361 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[16]:
+03:19:15,361 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [16] (exit code: 0)
+03:19:15,415 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:type detected on 'live-rw' is 'ext4'
+03:19:15,415 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... dumpe2fs -h /dev/mapper/live-rw
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem volume name:   Anaconda
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last mounted on:          /
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem UUID:          8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem magic number:  0xEF53
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem revision #:    1 (dynamic)
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem features:      has_journal ext_attr resize_inode dir_index filetype needs_recovery extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem flags:         signed_directory_hash
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Default mount options:    user_xattr acl
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem state:         clean
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Errors behavior:          Continue
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem OS type:       Linux
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode count:              196608
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Block count:              786432
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved block count:     0
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Free blocks:              187738
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Free inodes:              157693
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:First block:              0
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Block size:               4096
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Fragment size:            4096
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Group descriptor size:    64
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved GDT blocks:      383
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Blocks per group:         32768
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Fragments per group:      32768
+03:19:15,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inodes per group:         8192
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode blocks per group:   512
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Flex block group size:    16
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem created:       Tue Jun  1 20:17:06 2021
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last mount time:          Tue Jun 22 03:18:03 2021
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last write time:          Tue Jun 22 03:18:03 2021
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Mount count:              2
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Maximum mount count:      -1
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last checked:             Tue Jun  1 20:17:06 2021
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Check interval:           0 (<none>)
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Lifetime writes:          2272 MB
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved blocks uid:      0 (user root)
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved blocks gid:      0 (group root)
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:First inode:              11
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode size:#011          256
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Required extra isize:     32
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Desired extra isize:      32
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal inode:            8
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Default directory hash:   half_md4
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Directory Hash Seed:      34bf795f-f73d-470a-a73a-c0beb10500b2
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal backup:           inode blocks
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Checksum type:            crc32c
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Checksum:                 0xb62103e1
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal features:         journal_incompat_revoke journal_64bit journal_checksum_v3
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal size:             64M
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal length:           16384
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal sequence:         0x00000007
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal start:            1
+03:19:15,435 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal checksum type:    crc32c
+03:19:15,438 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal checksum:         0x3eb3d09c
+03:19:15,438 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:
+03:19:15,438 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:19:15,439 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'dumpe2fs 1.45.6 (20-Mar-2020)'
+03:19:15,440 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... resize2fs -P /dev/mapper/live-rw
+03:19:15,459 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:19:15,459 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Estimated minimum size of the filesystem: 786432
+03:19:15,459 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:19:15,459 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'resize2fs 1.45.6 (20-Mar-2020)'
+03:19:15,476 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got format: existing ext4 filesystem
+03:19:15,485 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:scanning live-base (/sys/devices/virtual/block/dm-1)...
+03:19:15,493 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [17] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,534 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[17]:
+03:19:15,534 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[17]:
+03:19:15,534 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [17] (exit code: 0)
+03:19:15,534 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [18] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,541 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[18]:
+03:19:15,541 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[18]:
+03:19:15,542 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [18] (exit code: 0)
+03:19:15,542 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [19] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,557 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[19]:
+03:19:15,557 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[19]:
+03:19:15,557 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [19] (exit code: 0)
+03:19:15,557 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [20] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,577 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[20]:
+03:19:15,577 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[20]:
+03:19:15,577 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [20] (exit code: 0)
+03:19:15,578 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [21] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,613 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[21]:
+03:19:15,613 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[21]:
+03:19:15,613 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [21] (exit code: 0)
+03:19:15,616 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [22] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,636 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[22]:
+03:19:15,636 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[22]:
+03:19:15,636 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [22] (exit code: 0)
+03:19:15,637 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [23] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,645 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[23]:
+03:19:15,645 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[23]:
+03:19:15,645 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [23] (exit code: 0)
+03:19:15,645 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [24] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,660 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[24]:
+03:19:15,660 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[24]:
+03:19:15,660 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [24] (exit code: 0)
+03:19:15,660 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [25] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,668 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[25]:
+03:19:15,668 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[25]:
+03:19:15,668 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [25] (exit code: 0)
+03:19:15,718 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added dm live-base (id 71) to device tree
+03:19:15,718 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got device: DMDevice instance (0x7f1478ff1da0) --
+03:19:15,718 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [26] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,750 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[26]:
+03:19:15,750 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[26]:
+03:19:15,750 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [26] (exit code: 0)
+03:19:15,750 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [27] dmsetup info -co subsystem --noheadings live-base ...
+03:19:15,762 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[27]:
+03:19:15,762 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[27]:
+03:19:15,762 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [27] (exit code: 0)
+03:19:15,790 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:type detected on 'live-base' is 'ext4'
+03:19:15,790 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... dumpe2fs -h /dev/mapper/live-base
+03:19:15,800 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem volume name:   Anaconda
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last mounted on:          /var/tmp/lorax/lorax.imgutils.7d1unh5i
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem UUID:          8d4c5044-93ba-4ff1-bd59-b1ad9484ebd6
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem magic number:  0xEF53
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem revision #:    1 (dynamic)
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem features:      has_journal ext_attr resize_inode dir_index filetype extent 64bit flex_bg sparse_super large_file huge_file dir_nlink extra_isize metadata_csum
+03:19:15,801 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem flags:         signed_directory_hash
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Default mount options:    user_xattr acl
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem state:         clean
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Errors behavior:          Continue
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem OS type:       Linux
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode count:              196608
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Block count:              786432
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved block count:     0
+03:19:15,802 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Free blocks:              187738
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Free inodes:              157693
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:First block:              0
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Block size:               4096
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Fragment size:            4096
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Group descriptor size:    64
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved GDT blocks:      383
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Blocks per group:         32768
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Fragments per group:      32768
+03:19:15,803 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inodes per group:         8192
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode blocks per group:   512
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Flex block group size:    16
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Filesystem created:       Tue Jun  1 20:17:06 2021
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last mount time:          Tue Jun  1 20:17:06 2021
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last write time:          Tue Jun  1 20:17:32 2021
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Mount count:              1
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Maximum mount count:      -1
+03:19:15,804 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Last checked:             Tue Jun  1 20:17:06 2021
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Check interval:           0 (<none>)
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Lifetime writes:          2272 MB
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved blocks uid:      0 (user root)
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Reserved blocks gid:      0 (group root)
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:First inode:              11
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Inode size:#011          256
+03:19:15,805 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Required extra isize:     32
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Desired extra isize:      32
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal inode:            8
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Default directory hash:   half_md4
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Directory Hash Seed:      34bf795f-f73d-470a-a73a-c0beb10500b2
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal backup:           inode blocks
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Checksum type:            crc32c
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Checksum:                 0x6007a497
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal features:         journal_64bit journal_checksum_v3
+03:19:15,806 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal size:             64M
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal length:           16384
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal sequence:         0x00000006
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal start:            0
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal checksum type:    crc32c
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Journal checksum:         0x9bb603fb
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'dumpe2fs 1.45.6 (20-Mar-2020)'
+03:19:15,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... resize2fs -P /dev/mapper/live-base
+03:19:15,821 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:19:15,821 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Couldn't find valid filesystem superblock.
+03:19:15,821 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:19:15,821 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'resize2fs 1.45.6 (20-Mar-2020)'
+03:19:15,857 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'resize2fs: Operation not permitted while trying to open /dev/mapper/live-base'
+03:19:15,857 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:got format: existing ext4 filesystem
+03:19:15,857 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:15,950 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:edd: collected mbr signatures: {}
+03:19:15,964 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:16,117 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.bootloader.factory:Created the boot loader GRUB2.
+03:19:16,150 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:16,324 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-ScanDevicesTask-1 (139725915072256)
+03:19:16,396 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:anaconda.threading:Running Thread: AnaTaskThread-TearDownSourcesTask-1 (139650997421824)
+03:19:16,406 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:anaconda.threading:Thread Done: AnaTaskThread-TearDownSourcesTask-1 (139650997421824)
+03:19:16,999 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,087 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,167 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,239 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,321 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t iso9660 -o ro /dev/sr0 /tmp/tmpi77m0ewq
+03:19:17,345 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,403 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,476 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,538 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,605 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,673 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:19:17,740 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... umount /tmp/tmpi77m0ewq
+03:19:17,751 INFO systemd:tmp-tmpi77m0ewq.mount: Succeeded.
+03:19:17,796 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.boss:Setting locale of all modules to en_US.UTF-8.
+03:19:17,796 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.module_manager.module_manager:Setting locale of all modules to en_US.UTF-8.
+03:19:17,798 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:anaconda.threading:Running Thread: AnaTaskThread-SetUpSourcesTask-1 (139650997421824)
+03:19:17,841 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.boss:Setting locale of all modules to en_US.UTF-8.
+03:19:17,841 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.module_manager.module_manager:Setting locale of all modules to en_US.UTF-8.
+03:19:17,851 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:program:Running... mount -t iso9660 -o ro /dev/sr0 /run/install/sources/mount-0000-cdrom
+03:19:17,869 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:anaconda.modules.payloads.source.cdrom.initialization:using CD-ROM device sr0 mounted at /run/install/sources/mount-0000-cdrom
+03:19:17,872 WARNING org.fedoraproject.Anaconda.Modules.Payloads:INFO:anaconda.threading:Thread Done: AnaTaskThread-SetUpSourcesTask-1 (139650997421824)
+03:20:45,677 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.boss:Setting locale of all modules to en_US.UTF-8.
+03:20:45,678 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.boss.module_manager.module_manager:Setting locale of all modules to en_US.UTF-8.
+03:20:45,785 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.10' (uid=0 pid=1763 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:20:45,793 INFO systemd:Starting Hostname Service...
+03:20:45,984 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+03:20:45,985 INFO systemd:Started Hostname Service.
+03:20:51,413 INFO NetworkManager:<info>  [1624332051.4130] agent-manager: agent[39bcac46c5ef6a61,:1.23/anaconda/0]: agent registered
+03:20:59,837 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-AutomaticPartitioningTask-1 (139725915072256)
+03:20:59,903 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [111] destroy format None on disk sda (id 14)
+03:20:59,911 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [113] destroy format None on disk sda (id 14)
+03:21:00,004 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [116] create format msdos disklabel on disk sda (id 14)
+03:21:00,064 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.core.storage:Detected 2.06 GiB of memory
+03:21:00,065 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.core.storage:Swap attempt of 2.06 GiB
+03:21:00,096 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added partition req0 (id 118) to device tree
+03:21:00,097 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [121] create device partition req0 (id 118)
+03:21:00,102 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [122] create format lvmpv on partition req0 (id 118)
+03:21:00,108 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.partitioning.automatic.utils:skipping unneeded stage1 biosboot request
+03:21:00,132 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added partition req1 (id 125) to device tree
+03:21:00,132 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [128] create device partition req1 (id 125)
+03:21:00,138 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [129] create format xfs filesystem mounted at /boot on partition req1 (id 125)
+03:21:00,351 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added lvmvg cl (id 131) to device tree
+03:21:00,351 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [135] create device lvmvg cl (id 131)
+03:21:00,382 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [28] dmsetup --version ...
+03:21:00,396 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[28]: Library version:   1.02.175-RHEL8 (2021-01-28)
+03:21:00,396 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[28]:
+03:21:00,396 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [28] (exit code: 0)
+03:21:00,398 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added lvmlv cl-root (id 137) to device tree
+03:21:00,398 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [142] create device lvmlv cl-root (id 137)
+03:21:00,405 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [143] create format xfs filesystem mounted at / on lvmlv cl-root (id 137)
+03:21:00,440 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added lvmlv cl-home (id 146) to device tree
+03:21:00,440 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [151] create device lvmlv cl-home (id 146)
+03:21:00,446 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [152] create format xfs filesystem mounted at /home on lvmlv cl-home (id 146)
+03:21:00,476 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:added lvmlv cl-swap (id 155) to device tree
+03:21:00,477 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [160] create device lvmlv cl-swap (id 155)
+03:21:00,478 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [29] mkswap --version ...
+03:21:00,492 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[29]: mkswap from util-linux 2.32.1
+03:21:00,492 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[29]:
+03:21:00,493 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [29] (exit code: 0)
+03:21:00,497 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:registered action: [161] create format swap on lvmlv cl-swap (id 155)
+03:21:00,607 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-AutomaticPartitioningTask-1 (139725915072256)
+03:21:00,852 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-StorageValidateTask-1 (139725915072256)
+03:21:00,900 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-StorageValidateTask-1 (139725915072256)
+03:21:30,376 INFO systemd:systemd-hostnamed.service: Succeeded.
+03:21:47,159 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.10' (uid=0 pid=1763 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:21:47,177 INFO systemd:Starting Hostname Service...
+03:21:47,335 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+03:21:47,336 INFO systemd:Started Hostname Service.
+03:21:48,926 INFO NetworkManager:<info>  [1624332108.9262] device (enp0s3): Activation: starting connection 'enp0s3' (c40618d0-da83-42c9-906e-272d05e8731b)
+03:21:48,926 INFO NetworkManager:<info>  [1624332108.9263] audit: op="connection-activate" uuid="c40618d0-da83-42c9-906e-272d05e8731b" name="enp0s3" pid=1714 uid=0 result="success"
+03:21:48,926 INFO NetworkManager:<info>  [1624332108.9265] device (enp0s3): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+03:21:48,927 INFO NetworkManager:<info>  [1624332108.9271] manager: NetworkManager state is now CONNECTING
+03:21:48,927 INFO NetworkManager:<info>  [1624332108.9274] device (enp0s3): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+03:21:48,935 INFO NetworkManager:<info>  [1624332108.9302] device (enp0s3): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+03:21:48,936 INFO NetworkManager:<info>  [1624332108.9363] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+03:21:48,958 INFO NetworkManager:<info>  [1624332108.9562] dhcp4 (enp0s3): state changed unknown -> bound, address=10.0.2.15
+03:21:48,962 INFO NetworkManager:<info>  [1624332108.9613] device (enp0s3): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+03:21:48,966 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.3' (uid=0 pid=1638 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+03:21:48,972 INFO systemd:Starting Network Manager Script Dispatcher Service...
+03:21:48,992 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+03:21:48,993 INFO systemd:Started Network Manager Script Dispatcher Service.
+03:21:48,995 INFO nm-dispatcher:req:1 'pre-up' [enp0s3]: new request (0 scripts)
+03:21:48,996 INFO nm-dispatcher:req:1 'pre-up' [enp0s3]: completed: no scripts
+03:21:49,000 INFO NetworkManager:<info>  [1624332108.9969] device (enp0s3): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+03:21:49,001 INFO NetworkManager:<info>  [1624332108.9975] device (enp0s3): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+03:21:49,001 INFO NetworkManager:<info>  [1624332108.9982] manager: NetworkManager state is now CONNECTED_LOCAL
+03:21:49,005 INFO NetworkManager:<info>  [1624332109.0033] manager: NetworkManager state is now CONNECTED_SITE
+03:21:49,005 INFO NetworkManager:<info>  [1624332109.0034] policy: set 'enp0s3' (enp0s3) as default for IPv4 routing and DNS
+03:21:49,007 INFO NetworkManager:<info>  [1624332109.0072] device (enp0s3): Activation: successful, device activated.
+03:21:49,010 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.resolve1' unit='dbus-org.freedesktop.resolve1.service' requested by ':1.3' (uid=0 pid=1638 comm="/usr/sbin/NetworkManager --no-daemon " label="system_u:system_r:kernel_t:s0")
+03:21:49,011 INFO NetworkManager:<info>  [1624332109.0110] manager: NetworkManager state is now CONNECTED_GLOBAL
+03:21:49,015 INFO dbus-daemon:[system] Activation via systemd failed for unit 'dbus-org.freedesktop.resolve1.service': Unit dbus-org.freedesktop.resolve1.service not found.
+03:21:49,016 INFO nm-dispatcher:req:2 'up' [enp0s3]: new request (2 scripts)
+03:21:49,027 INFO nm-dispatcher:req:2 'up' [enp0s3]: start running ordered scripts...
+03:21:49,027 INFO nm-dispatcher:req:3 'connectivity-change': new request (2 scripts)
+03:21:49,066 INFO nm-dispatcher:req:3 'connectivity-change': start running ordered scripts...
+03:21:49,103 INFO NetworkManager:<info>  [1624332109.1029] policy: set-hostname: set hostname to '10.0.2.15' (from address lookup)
+03:21:49,105 INFO systemd-hostnamed:Changed host name to '10.0.2.15'
+03:21:49,108 INFO nm-dispatcher:req:4 'hostname': new request (2 scripts)
+03:21:49,108 INFO nm-dispatcher:req:4 'hostname': start running ordered scripts...
+03:21:58,511 INFO chronyd:Selected source 157.245.102.2
+03:22:00,985 INFO chronyd:System clock TAI offset set to 37 seconds
+03:22:01,421 INFO systemd:NetworkManager-dispatcher.service: Succeeded.
+03:22:02,449 INFO systemd-hostnamed:Changed host name to 'centos8.linuxvmimages.com'
+03:22:08,600 INFO systemd-hostnamed:Changed host name to 'centos8.linuxvmimages.local'
+03:22:12,875 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:dasbus.connection:Connecting to the system bus.
+03:22:12,876 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:dasbus.connection:Connecting to the system bus.
+03:22:13,525 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.common.task.meta:'Configure the runtime system' has started.
+03:22:13,525 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.common.task.meta:'Configure the runtime system' is complete.
+03:22:13,547 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-ActivateFilesystemsTask-1 (139725915072256)
+03:22:13,564 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,620 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,681 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,741 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,791 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:pruning action queue...
+03:22:13,792 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:removing obsolete action 113 (111)
+03:22:13,795 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,862 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,917 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:13,974 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,045 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:resetting parted disks...
+03:22:14,055 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:sorting actions...
+03:22:14,127 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [111] destroy format None on disk sda (id 14)
+03:22:14,137 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... wipefs -f -a /dev/sda
+03:22:14,174 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,303 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,348 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [116] create format msdos disklabel on disk sda (id 14)
+03:22:14,389 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,391 INFO kernel: sda:
+03:22:14,572 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,620 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [128] create device partition sda1 (id 125)
+03:22:14,644 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... dd if=/dev/zero of=/dev/sda bs=512 seek=2048 count=2048
+03:22:14,712 INFO kernel: sda:
+03:22:14,713 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:22:14,713 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'2048+0 records in'
+03:22:14,713 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'2048+0 records out'
+03:22:14,713 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.0502648 s, 20.9 MB/s'
+03:22:14,714 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,901 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:14,904 INFO kernel: sda: sda1
+03:22:15,062 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... wipefs -f -a /dev/sda1
+03:22:15,080 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:15,147 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:15,196 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [129] create format xfs filesystem mounted at /boot on partition sda1 (id 125)
+03:22:15,268 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:15,409 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mkfs.xfs -f /dev/sda1
+03:22:15,539 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:22:15,539 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:meta-data=/dev/sda1              isize=512    agcount=4, agsize=65536 blks
+03:22:15,539 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sectsz=512   attr=2, projid32bit=1
+03:22:15,540 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+03:22:15,540 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       reflink=1
+03:22:15,540 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:data     =                       bsize=4096   blocks=262144, imaxpct=25
+03:22:15,540 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sunit=0      swidth=0 blks
+03:22:15,540 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+03:22:15,541 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:log      =internal log           bsize=4096   blocks=2560, version=2
+03:22:15,541 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sectsz=512   sunit=0 blks, lazy-count=1
+03:22:15,541 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:realtime =none                   extsz=4096   blocks=0, rtextents=0
+03:22:15,541 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:15,619 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [121] create device partition sda2 (id 118)
+03:22:15,651 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... dd if=/dev/zero of=/dev/sda bs=512 seek=2099200 count=2048
+03:22:15,706 INFO kernel: sda: sda1
+03:22:15,708 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr:
+03:22:15,709 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'2048+0 records in'
+03:22:15,709 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'2048+0 records out'
+03:22:15,709 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:b'1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.0494989 s, 21.2 MB/s'
+03:22:15,710 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:15,881 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:16,099 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... wipefs -f -a /dev/sda2
+03:22:16,120 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:16,201 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:16,259 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [122] create format lvmpv on partition sda2 (id 118)
+03:22:16,332 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:16,493 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [30] lvm pvcreate /dev/sda2 --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} -y ...
+03:22:16,574 INFO dbus-daemon:[system] Activating via systemd: service name='com.redhat.lvmdbus1' unit='lvm2-lvmdbusd.service' requested by ':1.28' (uid=0 pid=2254 comm="lvm pvcreate /dev/sda2 --config= devices { preferr" label="system_u:system_r:kernel_t:s0")
+03:22:16,578 INFO systemd:Starting LVM2 D-Bus service...
+03:22:16,593 INFO systemd:Condition check resulted in VBOX_HARDDISK 2 being skipped.
+03:22:16,596 INFO systemd:Created slice system-lvm2\x2dpvscan.slice.
+03:22:16,599 INFO systemd:Starting LVM event activation on device 8:2...
+03:22:16,652 INFO lvm:  pvscan[2257] PV /dev/sda2 not used.
+03:22:16,673 INFO systemd:Started LVM event activation on device 8:2.
+03:22:17,001 INFO dbus-daemon:[system] Successfully activated service 'com.redhat.lvmdbus1'
+03:22:17,002 INFO systemd:Started LVM2 D-Bus service.
+03:22:17,166 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[30]:   Physical volume "/dev/sda2" successfully created.
+03:22:17,166 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[30]:
+03:22:17,166 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [30] (exit code: 0)
+03:22:17,166 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:17,212 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [135] create device lvmvg cl (id 131)
+03:22:17,228 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [31] lvm vgcreate -s 4096K cl /dev/sda2 --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:17,338 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[31]:   Volume group "cl" successfully created
+03:22:17,338 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[31]:
+03:22:17,338 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [31] (exit code: 0)
+03:22:17,351 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:17,403 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:17,448 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [160] create device lvmlv cl-swap (id 155)
+03:22:17,467 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:17,510 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [32] lvm vgs --noheadings --nosuffix --nameprefixes --unquoted --units=b -o name,uuid,size,free,extent_size,extent_count,free_count,pv_count cl --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:17,597 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[32]:   LVM2_VG_NAME=cl LVM2_VG_UUID=m9359o-fi0H-1OKC-HjjI-QwhJ-JUdb-H17qvf LVM2_VG_SIZE=548677877760 LVM2_VG_FREE=548677877760 LVM2_VG_EXTENT_SIZE=4194304 LVM2_VG_EXTENT_COUNT=130815 LVM2_VG_FREE_COUNT=130815 LVM2_PV_COUNT=1
+03:22:17,597 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[32]:
+03:22:17,597 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [32] (exit code: 0)
+03:22:17,640 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [33] lvm lvcreate -n swap -L 2156180K -y --type linear cl --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:17,914 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[33]:   Rounding up size to full physical extent <2.06 GiB
+03:22:17,914 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[33]:
+03:22:17,914 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [33] (exit code: 0)
+03:22:17,914 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:18,018 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [161] create format swap on lvmlv cl-swap (id 155)
+03:22:18,071 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [34] mkswap -f /dev/mapper/cl-swap ...
+03:22:18,106 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[34]: Setting up swapspace version 1, size = 2.1 GiB (2210394112 bytes)
+03:22:18,107 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[34]:
+03:22:18,107 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [34] (exit code: 0)
+03:22:18,108 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:18,230 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [151] create device lvmlv cl-home (id 146)
+03:22:18,242 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [35] lvm vgs --noheadings --nosuffix --nameprefixes --unquoted --units=b -o name,uuid,size,free,extent_size,extent_count,free_count,pv_count cl --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:18,370 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[35]:   LVM2_VG_NAME=cl LVM2_VG_UUID=m9359o-fi0H-1OKC-HjjI-QwhJ-JUdb-H17qvf LVM2_VG_SIZE=548677877760 LVM2_VG_FREE=546467479552 LVM2_VG_EXTENT_SIZE=4194304 LVM2_VG_EXTENT_COUNT=130815 LVM2_VG_FREE_COUNT=130288 LVM2_PV_COUNT=1
+03:22:18,370 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[35]:
+03:22:18,370 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [35] (exit code: 0)
+03:22:18,395 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [36] lvm lvcreate -n home -L 460259328K -y --type linear cl --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:18,674 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[36]:   Logical volume "home" created.
+03:22:18,674 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[36]:
+03:22:18,674 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [36] (exit code: 0)
+03:22:18,674 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:18,753 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [152] create format xfs filesystem mounted at /home on lvmlv cl-home (id 146)
+03:22:18,782 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mkfs.xfs -f /dev/mapper/cl-home
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:meta-data=/dev/mapper/cl-home    isize=512    agcount=4, agsize=28766208 blks
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sectsz=512   attr=2, projid32bit=1
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       reflink=1
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:data     =                       bsize=4096   blocks=115064832, imaxpct=25
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sunit=0      swidth=0 blks
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:log      =internal log           bsize=4096   blocks=56184, version=2
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sectsz=512   sunit=0 blks, lazy-count=1
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:realtime =none                   extsz=4096   blocks=0, rtextents=0
+03:22:19,311 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:19,376 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [142] create device lvmlv cl-root (id 137)
+03:22:19,391 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [37] lvm vgs --noheadings --nosuffix --nameprefixes --unquoted --units=b -o name,uuid,size,free,extent_size,extent_count,free_count,pv_count cl --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:19,501 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[37]:   LVM2_VG_NAME=cl LVM2_VG_UUID=m9359o-fi0H-1OKC-HjjI-QwhJ-JUdb-H17qvf LVM2_VG_SIZE=548677877760 LVM2_VG_FREE=75161927680 LVM2_VG_EXTENT_SIZE=4194304 LVM2_VG_EXTENT_COUNT=130815 LVM2_VG_FREE_COUNT=17920 LVM2_PV_COUNT=1
+03:22:19,501 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[37]:
+03:22:19,501 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [37] (exit code: 0)
+03:22:19,505 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running [38] lvm lvcreate -n root -L 73400320K -y --type linear cl --config= devices { preferred_names=["^/dev/mapper/", "^/dev/md/", "^/dev/sd"] } log {level=7 file=/tmp/lvm.log syslog=0} ...
+03:22:19,695 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout[38]:   Logical volume "root" created.
+03:22:19,699 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stderr[38]:
+03:22:19,700 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:...done [38] (exit code: 0)
+03:22:19,743 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:19,839 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:blivet:executing action: [143] create format xfs filesystem mounted at / on lvmlv cl-root (id 137)
+03:22:19,850 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mkfs.xfs -f /dev/mapper/cl-root
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:stdout:
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:meta-data=/dev/mapper/cl-root    isize=512    agcount=4, agsize=4587520 blks
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sectsz=512   attr=2, projid32bit=1
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       crc=1        finobt=1, sparse=1, rmapbt=0
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       reflink=1
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:data     =                       bsize=4096   blocks=18350080, imaxpct=25
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sunit=0      swidth=0 blks
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:naming   =version 2              bsize=4096   ascii-ci=0, ftype=1
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:log      =internal log           bsize=4096   blocks=8960, version=2
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:         =                       sectsz=512   sunit=0 blks, lazy-count=1
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:realtime =none                   extsz=4096   blocks=0, rtextents=0
+03:22:19,959 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:20,029 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.installation:setting boot flag on sda1
+03:22:20,297 INFO kernel:Adding 2158588k swap on /dev/mapper/cl-swap.  Priority:-2 extents:1 across:2158588k FS
+03:22:20,298 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-ActivateFilesystemsTask-1 (139725915072256)
+03:22:20,650 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-MountFilesystemsTask-1 (139725915072256)
+03:22:20,785 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:20,891 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,010 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t xfs -o defaults /dev/mapper/cl-root /mnt/sysimage
+03:22:21,393 INFO kernel:SGI XFS with ACLs, security attributes, quota, no debug enabled
+03:22:21,426 INFO kernel:XFS (dm-4): Ending clean mount
+03:22:21,454 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,550 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,652 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,746 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,828 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,905 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:21,973 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t xfs -o defaults /dev/sda1 /mnt/sysimage/boot
+03:22:21,999 INFO kernel:XFS (sda1): Ending clean mount
+03:22:22,014 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,094 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,167 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,246 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,319 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,396 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,481 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,567 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,637 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t bind -o bind,defaults /dev /mnt/sysimage/dev
+03:22:22,654 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,727 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,813 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,879 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:22,956 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,036 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,117 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,196 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t devpts -o gid=5,mode=620 devpts /mnt/sysimage/dev/pts
+03:22:23,211 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,292 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,364 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,433 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,500 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,579 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t tmpfs -o defaults tmpfs /mnt/sysimage/dev/shm
+03:22:23,596 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,682 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,760 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,834 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:23,907 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,000 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,082 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,160 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t xfs -o defaults /dev/mapper/cl-home /mnt/sysimage/home
+03:22:24,184 INFO kernel:XFS (dm-3): Ending clean mount
+03:22:24,209 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,301 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,398 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,501 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,582 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,672 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,746 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,819 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:24,885 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t proc -o defaults proc /mnt/sysimage/proc
+03:22:25,012 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,070 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,130 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,211 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,283 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,370 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,431 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,503 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,566 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,630 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t bind -o bind,defaults /run /mnt/sysimage/run
+03:22:25,645 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,716 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,777 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,831 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,909 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:25,971 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,046 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,131 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,191 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t sysfs -o defaults sysfs /mnt/sysimage/sys
+03:22:26,205 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,261 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,320 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,395 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,479 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,555 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,615 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,695 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... udevadm settle --timeout=300
+03:22:26,774 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount -t selinuxfs -o defaults selinuxfs /mnt/sysimage/sys/fs/selinux
+03:22:26,781 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... findmnt -rn /mnt/sysroot
+03:22:26,791 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... mount --rbind /mnt/sysimage /mnt/sysroot
+03:22:26,811 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-MountFilesystemsTask-1 (139725915072256)
+03:22:27,747 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-WriteConfigurationTask-1 (139725915072256)
+03:22:27,758 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.devicetree.fsset:not writing out mpath configuration
+03:22:27,776 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-WriteConfigurationTask-1 (139725915072256)
+03:22:28,778 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Running Thread: AnaTaskThread-RealmDiscoverTask-1 (140432652973824)
+03:22:28,780 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Thread Done: AnaTaskThread-RealmDiscoverTask-1 (140432652973824)
+03:22:38,653 INFO systemd:systemd-hostnamed.service: Succeeded.
+03:26:54,153 INFO systemd-udevd:Using default interface naming scheme 'rhel-8.0'.
+03:27:10,285 INFO kernel:SELinux:  Converting 272 SID table entries...
+03:27:10,285 INFO kernel:SELinux:  policy capability network_peer_controls=1
+03:27:10,285 INFO kernel:SELinux:  policy capability open_perms=1
+03:27:10,285 INFO kernel:SELinux:  policy capability extended_socket_class=1
+03:27:10,285 INFO kernel:SELinux:  policy capability always_check_network=0
+03:27:10,285 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+03:27:10,285 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+03:27:10,395 INFO dbus-daemon:[session uid=0 pid=1911] Reloaded configuration
+03:27:10,397 INFO dbus-daemon:[system] Reloaded configuration
+03:27:10,407 INFO dbus-daemon:Reloaded configuration
+03:27:17,802 INFO dbus-daemon:[system] Reloaded configuration
+03:28:37,077 INFO dbus-daemon:[session uid=0 pid=1911] Reloaded configuration
+03:28:37,085 INFO dbus-daemon:[system] Reloaded configuration
+03:28:37,090 INFO dbus-daemon:Reloaded configuration
+03:29:29,985 INFO kernel:SELinux:  Converting 353 SID table entries...
+03:29:29,985 INFO kernel:SELinux:  policy capability network_peer_controls=1
+03:29:29,985 INFO kernel:SELinux:  policy capability open_perms=1
+03:29:29,985 INFO kernel:SELinux:  policy capability extended_socket_class=1
+03:29:29,986 INFO kernel:SELinux:  policy capability always_check_network=0
+03:29:29,986 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+03:29:29,986 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+03:29:30,012 INFO dbus-daemon:[session uid=0 pid=1911] Reloaded configuration
+03:29:30,026 INFO dbus-daemon:[system] Reloaded configuration
+03:29:30,034 INFO dbus-daemon:Reloaded configuration
+03:30:20,773 INFO kernel:SELinux:  Converting 353 SID table entries...
+03:30:20,774 INFO kernel:SELinux:  policy capability network_peer_controls=1
+03:30:20,775 INFO kernel:SELinux:  policy capability open_perms=1
+03:30:20,775 INFO kernel:SELinux:  policy capability extended_socket_class=1
+03:30:20,775 INFO kernel:SELinux:  policy capability always_check_network=0
+03:30:20,775 INFO kernel:SELinux:  policy capability cgroup_seclabel=1
+03:30:20,775 INFO kernel:SELinux:  policy capability nnp_nosuid_transition=1
+03:30:20,802 INFO dbus-daemon:[session uid=0 pid=1911] Reloaded configuration
+03:30:20,814 INFO dbus-daemon:[system] Reloaded configuration
+03:30:20,820 INFO dbus-daemon:Reloaded configuration
+03:30:22,773 INFO dbus-daemon:[system] Reloaded configuration
+03:30:34,076 INFO dbus-daemon:[session uid=0 pid=1911] Reloaded configuration
+03:30:34,084 INFO dbus-daemon:[system] Reloaded configuration
+03:30:34,088 INFO dbus-daemon:Reloaded configuration
+03:30:34,168 INFO dbus-daemon:[session uid=0 pid=1911] Reloaded configuration
+03:30:34,173 INFO dbus-daemon:[system] Reloaded configuration
+03:30:34,181 INFO dbus-daemon:Reloaded configuration
+03:31:24,885 INFO systemd-udevd:Using default interface naming scheme 'rhel-8.0'.
+03:31:25,908 INFO systemd-logind:Watching system buttons on /dev/input/event0 (Power Button)
+03:31:25,915 INFO systemd-logind:Watching system buttons on /dev/input/event1 (Sleep Button)
+03:31:25,931 INFO systemd-logind:Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+03:31:31,594 INFO dbus-daemon:[system] Reloaded configuration
+03:32:48,282 INFO systemd:Starting Cleanup of Temporary Directories...
+03:32:48,542 INFO systemd:systemd-tmpfiles-clean.service: Succeeded.
+03:32:48,542 INFO systemd:Started Cleanup of Temporary Directories.
+03:34:11,673 INFO systemd-udevd:Using default interface naming scheme 'rhel-8.0'.
+03:34:11,725 INFO systemd-logind:Watching system buttons on /dev/input/event1 (Sleep Button)
+03:34:11,775 INFO systemd-logind:Watching system buttons on /dev/input/event0 (Power Button)
+03:34:11,974 INFO systemd-logind:Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+03:40:47,969 INFO systemd:Started /usr/bin/systemctl start man-db-cache-update.
+03:40:48,016 INFO systemctl:Failed to start man-db-cache-update.service: Unit man-db-cache-update.service not found.
+03:40:54,742 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureBootloaderTask-1 (139725915072256)
+03:40:55,371 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureBootloaderTask-1 (139725915072256)
+03:40:55,764 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-InstallBootloaderTask-1 (139725915072256)
+03:40:55,765 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.bootloader.utils:boot loader stage1 target device is sda
+03:40:55,765 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.bootloader.utils:boot loader stage2 target device is sda1
+03:40:55,809 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... xfs_freeze -f /boot
+03:40:55,864 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... xfs_freeze -u /boot
+03:40:55,890 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.bootloader.grub2:bootloader.py: mbr will be updated for grub2
+03:40:55,890 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running in chroot '/mnt/sysroot'... grub2-install --no-floppy /dev/sda
+03:40:57,265 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Installing for i386-pc platform.
+03:40:57,265 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Installation finished. No error reported.
+03:40:57,273 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... xfs_freeze -f /boot
+03:40:57,314 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... xfs_freeze -u /boot
+03:40:57,331 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.modules.storage.bootloader.grub2:bootloader.py: used boot args: crashkernel=auto resume=/dev/mapper/cl-swap rd.lvm.lv=cl/root rd.lvm.lv=cl/swap rhgb quiet
+03:40:57,337 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running in chroot '/mnt/sysroot'... grub2-set-default 41f66afc696f4701b0fa149bf0508dda-4.18.0-305.3.1.el8.x86_64
+03:40:57,387 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running in chroot '/mnt/sysroot'... grub2-mkconfig -o /boot/grub2/grub.cfg
+03:41:00,489 INFO kernel:fuse: init (API version 7.31)
+03:41:00,497 INFO systemd:Mounting FUSE Control File System...
+03:41:00,516 INFO systemd:Mounted FUSE Control File System.
+03:41:01,103 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Generating grub configuration file ...
+03:41:01,103 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:done
+03:41:01,112 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... xfs_freeze -f /boot
+03:41:01,158 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:program:Running... xfs_freeze -u /boot
+03:41:01,176 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-InstallBootloaderTask-1 (139725915072256)
+03:41:01,904 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureSELinuxTask-1 (140432652973824)
+03:41:01,906 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureSELinuxTask-1 (140432652973824)
+03:41:01,921 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureFingerprintAuthTask-1 (140432652973824)
+03:41:01,927 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:Running in chroot '/mnt/sysroot'... /usr/bin/authselect select sssd with-fingerprint with-silent-lastlog --force
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:Backup stored at /var/lib/authselect/backups/2021-06-22-03-41-01.wWPDjq
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:Profile "sssd" was selected.
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:The following nsswitch maps are overwritten by the profile:
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:- passwd
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:- group
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:- netgroup
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:- automount
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:- services
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:Make sure that SSSD service is configured and enabled. See SSSD documentation for more information.
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:- with-fingerprint is selected, make sure fprintd service is configured and enabled
+03:41:02,191 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:program:
+03:41:02,198 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureFingerprintAuthTask-1 (140432652973824)
+03:41:03,042 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureAuthselectTask-1 (140432652973824)
+03:41:03,043 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureAuthselectTask-1 (140432652973824)
+03:41:03,052 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureAuthconfigTask-1 (140432652973824)
+03:41:03,053 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureAuthconfigTask-1 (140432652973824)
+03:41:03,072 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureTimezoneTask-1 (139790822536960)
+03:41:03,131 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureTimezoneTask-1 (139790822536960)
+03:41:04,090 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureNTPTask-1 (139790822536960)
+03:41:04,092 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:program:Running... systemctl list-unit-files chronyd.service --no-legend --root /mnt/sysroot
+03:41:04,123 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:program:chronyd.service enabled
+03:41:04,125 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:program:Running... systemctl enable chronyd --root /mnt/sysroot
+03:41:04,141 WARNING org.fedoraproject.Anaconda.Modules.Timezone:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureNTPTask-1 (139790822536960)
+03:41:05,137 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureInitialSetupTask-1 (139946866095872)
+03:41:05,147 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:program:Running... systemctl enable initial-setup.service --root /mnt/sysroot
+03:41:05,169 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:program:Created symlink /mnt/sysroot/etc/systemd/system/graphical.target.wants/initial-setup.service -> /usr/lib/systemd/system/initial-setup.service.
+03:41:05,169 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:program:Created symlink /mnt/sysroot/etc/systemd/system/multi-user.target.wants/initial-setup.service -> /usr/lib/systemd/system/initial-setup.service.
+03:41:05,175 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureInitialSetupTask-1 (139946866095872)
+03:41:06,421 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigurePostInstallationToolsTask-1 (139946866095872)
+03:41:06,424 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.modules.services.installation:Writing out user interaction config at /mnt/sysroot/etc/sysconfig/anaconda
+03:41:06,430 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigurePostInstallationToolsTask-1 (139946866095872)
+03:41:07,436 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureServicesTask-1 (139946866095872)
+03:41:07,437 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureServicesTask-1 (139946866095872)
+03:41:07,444 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureSystemdDefaultTargetTask-1 (139946866095872)
+03:41:07,475 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureSystemdDefaultTargetTask-1 (139946866095872)
+03:41:08,455 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureDefaultDesktopTask-1 (139946866095872)
+03:41:08,456 WARNING org.fedoraproject.Anaconda.Modules.Services:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureDefaultDesktopTask-1 (139946866095872)
+03:41:08,470 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:anaconda.threading:Running Thread: AnaTaskThread-LanguageInstallationTask-1 (139805699696384)
+03:41:08,475 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:anaconda.threading:Thread Done: AnaTaskThread-LanguageInstallationTask-1 (139805699696384)
+03:41:09,516 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:anaconda.threading:Running Thread: AnaTaskThread-KeyboardInstallationTask-1 (139805699696384)
+03:41:09,518 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service' requested by ':1.27' (uid=0 pid=1769 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:41:09,531 INFO systemd:Starting Locale Service...
+03:41:09,741 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.locale1'
+03:41:09,742 INFO systemd:Started Locale Service.
+03:41:09,831 INFO systemd-localed:Changed X11 keyboard layout to 'us' model '' variant '' options ''
+03:41:09,842 INFO systemd-localed:Changed X11 keyboard layout to '' model '' variant '' options ''
+03:41:09,859 INFO systemd-localed:Changed X11 keyboard layout to 'us' model '' variant '' options ''
+03:41:09,873 INFO systemd-localed:Changed X11 keyboard layout to '' model '' variant '' options ''
+03:41:09,874 WARNING org.fedoraproject.Anaconda.Modules.Localization:INFO:anaconda.threading:Thread Done: AnaTaskThread-KeyboardInstallationTask-1 (139805699696384)
+03:41:10,544 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureFirewallTask-1 (139908682528512)
+03:41:10,552 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:Running in chroot '/mnt/sysroot'... /usr/bin/firewall-offline-cmd --enabled --service=ssh
+03:41:11,589 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:Adding service 'ssh' to default zone.
+03:41:11,589 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:ALREADY_ENABLED: ssh
+03:41:11,589 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:success
+03:41:11,593 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureFirewallTask-1 (139908682528512)
+03:41:12,571 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Running Thread: AnaTaskThread-CreateGroupsTask-1 (140260392085248)
+03:41:12,573 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Thread Done: AnaTaskThread-CreateGroupsTask-1 (140260392085248)
+03:41:12,582 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Running Thread: AnaTaskThread-CreateUsersTask-1 (140260392085248)
+03:41:12,588 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:Running... useradd -R /mnt/sysroot -U -G wheel -d /home/centos -m -c CentOS centos
+03:41:12,848 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:12:806547): [sss_cache] [confdb_get_enabled_domain_list] (0x0040): Failed to get [domains] from [sssd], error [2] (No such file or directory)
+03:41:12,848 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:12:806620): [sss_cache] [init_domains] (0x0020): Could not initialize domains
+03:41:12,848 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:12:825712): [sss_cache] [confdb_get_enabled_domain_list] (0x0040): Failed to get [domains] from [sssd], error [2] (No such file or directory)
+03:41:12,848 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:12:825834): [sss_cache] [init_domains] (0x0020): Could not initialize domains
+03:41:12,853 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:Running... chpasswd -R /mnt/sysroot -e
+03:41:12,928 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:Running... chage -R /mnt/sysroot -d  centos
+03:41:12,981 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:12:978693): [sss_cache] [confdb_get_enabled_domain_list] (0x0040): Failed to get [domains] from [sssd], error [2] (No such file or directory)
+03:41:12,981 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:12:978776): [sss_cache] [init_domains] (0x0020): Could not initialize domains
+03:41:12,981 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Thread Done: AnaTaskThread-CreateUsersTask-1 (140260392085248)
+03:41:13,605 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Running Thread: AnaTaskThread-SetRootPasswordTask-1 (140260392085248)
+03:41:13,607 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:Running... chpasswd -R /mnt/sysroot -e
+03:41:13,664 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:Running... chage -R /mnt/sysroot -d  root
+03:41:13,703 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:13:701080): [sss_cache] [confdb_get_enabled_domain_list] (0x0040): Failed to get [domains] from [sssd], error [2] (No such file or directory)
+03:41:13,704 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:program:(2021-06-21 23:41:13:701173): [sss_cache] [init_domains] (0x0020): Could not initialize domains
+03:41:13,705 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Thread Done: AnaTaskThread-SetRootPasswordTask-1 (140260392085248)
+03:41:14,636 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Running Thread: AnaTaskThread-SetSshKeysTask-1 (140260392085248)
+03:41:14,640 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Thread Done: AnaTaskThread-SetSshKeysTask-1 (140260392085248)
+03:41:15,670 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureRootPasswordSSHLoginTask-1 (140260392085248)
+03:41:15,672 WARNING org.fedoraproject.Anaconda.Modules.Users:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureRootPasswordSSHLoginTask-1 (140260392085248)
+03:41:15,773 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.modules.network.network:Onboot policy: choosing the default route device.
+03:41:15,773 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:Running... ip -f inet route show
+03:41:15,818 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:default via 10.0.2.2 dev enp0s3 proto dhcp metric 100
+03:41:15,818 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:program:10.0.2.0/24 dev enp0s3 proto kernel scope link src 10.0.2.15 metric 100
+03:41:15,827 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-ConfigureActivationOnBootTask-1 (139908682528512)
+03:41:15,998 INFO NetworkManager:<info>  [1624333275.9985] audit: op="connection-update" uuid="c40618d0-da83-42c9-906e-272d05e8731b" name="enp0s3" args="connection.timestamp,connection.autoconnect" pid=1763 uid=0 result="success"
+03:41:15,999 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-ConfigureActivationOnBootTask-1 (139908682528512)
+03:41:16,843 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-NetworkInstallationTask-1 (139908682528512)
+03:41:16,848 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-NetworkInstallationTask-1 (139908682528512)
+03:41:16,861 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Running Thread: AnaTaskThread-HostnameConfigurationTask-1 (139908682528512)
+03:41:16,862 WARNING org.fedoraproject.Anaconda.Modules.Network:INFO:anaconda.threading:Thread Done: AnaTaskThread-HostnameConfigurationTask-1 (139908682528512)
+03:41:16,869 INFO dbus-daemon:[system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.10' (uid=0 pid=1763 comm="/usr/libexec/platform-python -m pyanaconda.modules" label="system_u:system_r:kernel_t:s0")
+03:41:16,877 INFO systemd:Starting Hostname Service...
+03:41:17,134 INFO dbus-daemon:[system] Successfully activated service 'org.freedesktop.hostname1'
+03:41:17,135 INFO systemd:Started Hostname Service.
+03:41:17,192 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.common.task.meta:'Install the system' has started.
+03:41:17,195 WARNING org.fedoraproject.Anaconda.Boss:INFO:anaconda.modules.common.task.meta:'Install the system' is complete.
+03:41:39,913 INFO systemd:systemd-localed.service: Succeeded.
+03:41:47,181 INFO systemd:systemd-hostnamed.service: Succeeded.
+03:42:26,329 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Running Thread: AnaTaskThread-FixZIPLBootloaderTask-1 (139725915072256)
+03:42:26,332 WARNING org.fedoraproject.Anaconda.Modules.Storage:INFO:anaconda.threading:Thread Done: AnaTaskThread-FixZIPLBootloaderTask-1 (139725915072256)
+03:42:26,349 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Running Thread: AnaTaskThread-RealmJoinTask-1 (140432652973824)
+03:42:26,352 WARNING org.fedoraproject.Anaconda.Modules.Security:INFO:anaconda.threading:Thread Done: AnaTaskThread-RealmJoinTask-1 (140432652973824)
