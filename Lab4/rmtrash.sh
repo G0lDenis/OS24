@@ -1,24 +1,6 @@
 #!/bin/bash
 
-name=$1
-
-function check_name {
-	if [[ ! $# -eq 1 ]]
-	then
-		return 0
-	fi
-
-	if [[ -f $1 ]]
-	then
-		return 1
-	else
-		return 0
-	fi
-}
-
-check_name $1
-
-if [[ ! $? ]]
+if [[ ! -f $1 ]]
 then
 	echo "No such file found"
 	exit

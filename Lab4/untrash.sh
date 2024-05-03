@@ -18,6 +18,7 @@ do
 		if [[ ! -f $(echo $line | cut -d' ' -f2) ]]
 		then
 			echo "Link was not found"
+			exit
 		fi
 
 		dir=$(dirname $(echo $line | cut -d' ' -f1))
@@ -25,10 +26,11 @@ do
 		if [[ ! -d $dir ]]
 		then
 			echo "Dir not exists"
+			exit
 		fi
 		
 		new_name=$(basename $(echo $line | cut -d' ' -f1))
-		if [[ -f $(echo $line | cut -d' ' -f1) ]]
+		if [[ -f $(echo $line | cut -d' ' -f1) || -d $(echo $line | cut -d' ' -f1) ]]
                 then
                         echo "File already exists"
                         echo "Do you want to rename? y/n "
