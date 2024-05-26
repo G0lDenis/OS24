@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "$(sudo cat /var/log/messages | tail -12 | grep [Kk]ill)"
+echo "$(dmesg | grep "mem[2]*.sh")"
